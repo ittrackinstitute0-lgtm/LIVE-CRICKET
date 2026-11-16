@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "Afghanistan",
       "short": "AFG",
       "flag": "🇦🇫",
-      "score": "217/10",
+      "score": "217/10 &  143/5 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Zimbabwe",
       "short": "ZIM",
       "flag": "🇿🇼",
-      "score": "268/9 &  339/10 *",
+      "score": "295/9 &  339/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -36,7 +36,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Afghanistan",
-    "currentBatting": "Zimbabwe",
+    "currentBatting": "Afghanistan",
     "situation": "Live in progress: Afghanistan vs Zimbabwe",
     "crr": "4.25",
     "rrr": "5.10",
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Afghanistan 217/10  v Zimbabwe 268/9 &  339/10 *"
+        "desc": "Match update: Afghanistan 217/10 &  143/5 * v Zimbabwe 295/9 &  339/10 "
       }
     ],
     "playingXI": {
@@ -121,7 +121,7 @@ const MATCHES_DATA = [
       "name": "South Africa",
       "short": "SOU",
       "flag": "🇿🇦",
-      "score": "In Progress",
+      "score": "287/4 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Bangladesh",
       "short": "BAN",
       "flag": "🇧🇩",
-      "score": "400/9 *",
+      "score": "400/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -140,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "South Africa",
-    "currentBatting": "Bangladesh",
+    "currentBatting": "South Africa",
     "situation": "Live in progress: South Africa vs Bangladesh",
     "crr": "4.25",
     "rrr": "5.10",
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa v Bangladesh 400/9 *"
+        "desc": "Match update: South Africa 287/4 * v Bangladesh 400/10 "
       }
     ],
     "playingXI": {
@@ -222,10 +222,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "New South Wales",
-      "short": "NEW",
-      "flag": "🇦🇺",
-      "score": "108/10 *",
+      "name": "Emirates Eagles",
+      "short": "EMI",
+      "flag": "🏏",
+      "score": "111/2 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -233,23 +233,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "South Australia",
-      "short": "SOU",
-      "flag": "🇦🇺",
-      "score": "236/3",
+      "name": "Royal Desert Champions",
+      "short": "ROY",
+      "flag": "🏏",
+      "score": "110/4",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "New South Wales",
-    "currentBatting": "New South Wales",
-    "situation": "Live in progress: New South Wales vs South Australia",
+    "battingFirst": "Emirates Eagles",
+    "currentBatting": "Emirates Eagles",
+    "situation": "Live in progress: Emirates Eagles vs Royal Desert Champions",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "New South Wales vs South Australia underway",
+    "toss": "Emirates Eagles vs Royal Desert Champions underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -287,35 +287,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New South Wales 108/10 * v South Australia 236/3 "
+        "desc": "Match update: Emirates Eagles 111/2 * v Royal Desert Champions 110/4 "
       }
     ],
     "playingXI": {
       "home": [
-        "New South Wales Squad Player 1",
-        "New South Wales Squad Player 2",
-        "New South Wales Squad Player 3",
-        "New South Wales Squad Player 4",
-        "New South Wales Squad Player 5",
-        "New South Wales Squad Player 6",
-        "New South Wales Squad Player 7",
-        "New South Wales Squad Player 8",
-        "New South Wales Squad Player 9",
-        "New South Wales Squad Player 10",
-        "New South Wales Squad Player 11"
+        "Emirates Eagles Squad Player 1",
+        "Emirates Eagles Squad Player 2",
+        "Emirates Eagles Squad Player 3",
+        "Emirates Eagles Squad Player 4",
+        "Emirates Eagles Squad Player 5",
+        "Emirates Eagles Squad Player 6",
+        "Emirates Eagles Squad Player 7",
+        "Emirates Eagles Squad Player 8",
+        "Emirates Eagles Squad Player 9",
+        "Emirates Eagles Squad Player 10",
+        "Emirates Eagles Squad Player 11"
       ],
       "away": [
-        "South Australia Squad Player 1",
-        "South Australia Squad Player 2",
-        "South Australia Squad Player 3",
-        "South Australia Squad Player 4",
-        "South Australia Squad Player 5",
-        "South Australia Squad Player 6",
-        "South Australia Squad Player 7",
-        "South Australia Squad Player 8",
-        "South Australia Squad Player 9",
-        "South Australia Squad Player 10",
-        "South Australia Squad Player 11"
+        "Royal Desert Champions Squad Player 1",
+        "Royal Desert Champions Squad Player 2",
+        "Royal Desert Champions Squad Player 3",
+        "Royal Desert Champions Squad Player 4",
+        "Royal Desert Champions Squad Player 5",
+        "Royal Desert Champions Squad Player 6",
+        "Royal Desert Champions Squad Player 7",
+        "Royal Desert Champions Squad Player 8",
+        "Royal Desert Champions Squad Player 9",
+        "Royal Desert Champions Squad Player 10",
+        "Royal Desert Champions Squad Player 11"
       ]
     }
   },
@@ -323,13 +323,13 @@ const MATCHES_DATA = [
     "id": "live_4",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "live",
+    "status": "upcoming",
     "featured": false,
     "teamHome": {
-      "name": "Queensland",
-      "short": "QUE",
-      "flag": "🇦🇺",
-      "score": "241/9",
+      "name": "Pakistan",
+      "short": "PAK",
+      "flag": "🇵🇰",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -337,23 +337,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Tasmania",
-      "short": "TAS",
-      "flag": "🇦🇺",
-      "score": "164/3 *",
+      "name": "Sri Lanka",
+      "short": "SRI",
+      "flag": "🇱🇰",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Queensland",
-    "currentBatting": "Tasmania",
-    "situation": "Live in progress: Queensland vs Tasmania",
+    "battingFirst": "Pakistan",
+    "currentBatting": "Sri Lanka",
+    "situation": "Live in progress: Pakistan vs Sri Lanka",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Queensland vs Tasmania underway",
+    "toss": "Pakistan vs Sri Lanka underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -391,35 +391,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Queensland 241/9  v Tasmania 164/3 *"
+        "desc": "Match update: Pakistan v Sri Lanka"
       }
     ],
     "playingXI": {
       "home": [
-        "Queensland Squad Player 1",
-        "Queensland Squad Player 2",
-        "Queensland Squad Player 3",
-        "Queensland Squad Player 4",
-        "Queensland Squad Player 5",
-        "Queensland Squad Player 6",
-        "Queensland Squad Player 7",
-        "Queensland Squad Player 8",
-        "Queensland Squad Player 9",
-        "Queensland Squad Player 10",
-        "Queensland Squad Player 11"
+        "Pakistan Squad Player 1",
+        "Pakistan Squad Player 2",
+        "Pakistan Squad Player 3",
+        "Pakistan Squad Player 4",
+        "Pakistan Squad Player 5",
+        "Pakistan Squad Player 6",
+        "Pakistan Squad Player 7",
+        "Pakistan Squad Player 8",
+        "Pakistan Squad Player 9",
+        "Pakistan Squad Player 10",
+        "Pakistan Squad Player 11"
       ],
       "away": [
-        "Tasmania Squad Player 1",
-        "Tasmania Squad Player 2",
-        "Tasmania Squad Player 3",
-        "Tasmania Squad Player 4",
-        "Tasmania Squad Player 5",
-        "Tasmania Squad Player 6",
-        "Tasmania Squad Player 7",
-        "Tasmania Squad Player 8",
-        "Tasmania Squad Player 9",
-        "Tasmania Squad Player 10",
-        "Tasmania Squad Player 11"
+        "Sri Lanka Squad Player 1",
+        "Sri Lanka Squad Player 2",
+        "Sri Lanka Squad Player 3",
+        "Sri Lanka Squad Player 4",
+        "Sri Lanka Squad Player 5",
+        "Sri Lanka Squad Player 6",
+        "Sri Lanka Squad Player 7",
+        "Sri Lanka Squad Player 8",
+        "Sri Lanka Squad Player 9",
+        "Sri Lanka Squad Player 10",
+        "Sri Lanka Squad Player 11"
       ]
     }
   },
