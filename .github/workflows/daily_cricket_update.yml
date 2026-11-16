@@ -1,0 +1,61 @@
+name: Daily Cricket Match Verifier & Live Update
+
+on:
+  schedule:
+    # Runs everyday at 06:00 UTC (11:00 AM PKT / 11:30 AM IST)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub Actions tab anytime
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-matches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Fetch & Verify Real World Cricket Matches
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python update_matches.py
+
+      - name: Commit and Push Updated Matches
+        run: |
+          git config user.name "CricPulse Bot"
+          git config user.email "bot@cricpulse.internal"
+          git add app.js
+          if git diff --staged --quiet; then
+            echo "No match changes detected today."
+          else
+            git commit -m "chore(cricket): Daily verified real match update via Google AI Studio"
+            git push origin main
+          fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
