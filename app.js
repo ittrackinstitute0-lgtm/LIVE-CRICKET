@@ -8,228 +8,424 @@
 // ==========================================
 const MATCHES_DATA = [
   {
-    "id": "m1",
-    "tournament": "Border-Gavaskar Trophy - 2nd Test (Adelaide Oval)",
+    "id": "live_1",
+    "tournament": "International Tour & Series 2026",
     "format": "Test",
     "status": "live",
     "featured": true,
     "teamHome": {
-      "name": "Australia",
-      "short": "AUS",
-      "flag": "🇦🇺",
-      "score": "337 & 182/4",
-      "overs": "46.2",
-      "runs": 182,
+      "name": "Afghanistan",
+      "short": "AFG",
+      "flag": "🇦🇫",
+      "score": "217/10",
+      "overs": "Live",
+      "runs": 150,
       "wickets": 4,
-      "currentOver": 46,
-      "currentBall": 2
+      "currentOver": 32,
+      "currentBall": 4
     },
     "teamAway": {
-      "name": "India",
-      "short": "IND",
-      "flag": "🇮🇳",
-      "score": "180 & 175",
-      "overs": "53.5",
-      "runs": 175,
-      "wickets": 10,
-      "currentOver": 53,
-      "currentBall": 5
+      "name": "Zimbabwe",
+      "short": "ZIM",
+      "flag": "🇿🇼",
+      "score": "339/10 &  267/9 *",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
     },
-    "battingFirst": "India",
-    "currentBatting": "Australia",
-    "situation": "Australia lead by 164 runs with 6 wickets in hand. Day 3 Pink Ball twilight session.",
-    "crr": "3.92",
-    "rrr": "-",
-    "venue": "Adelaide Oval, Adelaide, Australia",
-    "toss": "India won the toss and elected to bat first",
-    "pitch": "Pink ball track offering vicious swing and seam movement under the floodlights",
-    "weather": "22°C Clear twilight sky, brisk southern breeze",
+    "battingFirst": "Afghanistan",
+    "currentBatting": "Zimbabwe",
+    "situation": "Live in progress: Afghanistan vs Zimbabwe",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Afghanistan vs Zimbabwe underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
     "batter1": {
-      "name": "Travis Head",
-      "runs": 84,
-      "balls": 89,
-      "fours": 10,
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
       "sixes": 1,
-      "sr": "94.4"
+      "sr": "118.4"
     },
     "batter2": {
-      "name": "Mitchell Marsh",
-      "runs": 28,
-      "balls": 34,
-      "fours": 3,
-      "sixes": 1,
-      "sr": "82.3"
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
     },
     "bowler": {
-      "name": "Jasprit Bumrah",
-      "overs": "14.2",
-      "maidens": 2,
-      "runs": 48,
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
       "wickets": 2,
-      "econ": "3.34"
+      "econ": "4.20"
     },
     "recentBalls": [
       "1",
       "4",
       "0",
-      "2",
-      "6",
-      "1"
+      "1",
+      "W",
+      "2"
     ],
     "commentary": [
       {
-        "over": "46.2",
-        "desc": "Bumrah to Travis Head, 1 run, pushed softly wide of point for a single."
-      },
-      {
-        "over": "46.1",
-        "desc": "Bumrah to Travis Head, <strong>SIX!</strong> What a counter-attack! Full delivery whipped audaciously over mid-wicket into the Adelaide crowd!"
-      },
-      {
-        "over": "45.6",
-        "desc": "Siraj to Marsh, 2 runs, clipped through square leg, good running between the wickets."
+        "over": "Live",
+        "desc": "Match update: Afghanistan 217/10  v Zimbabwe 339/10 &  267/9 *"
       }
     ],
     "playingXI": {
       "home": [
-        "Usman Khawaja",
-        "Nathan McSweeney",
-        "Marnus Labuschagne",
-        "Steve Smith",
-        "Travis Head",
-        "Mitchell Marsh",
-        "Alex Carey (WK)",
-        "Pat Cummins (C)",
-        "Mitchell Starc",
-        "Nathan Lyon",
-        "Scott Boland"
+        "Afghanistan Squad Player 1",
+        "Afghanistan Squad Player 2",
+        "Afghanistan Squad Player 3",
+        "Afghanistan Squad Player 4",
+        "Afghanistan Squad Player 5",
+        "Afghanistan Squad Player 6",
+        "Afghanistan Squad Player 7",
+        "Afghanistan Squad Player 8",
+        "Afghanistan Squad Player 9",
+        "Afghanistan Squad Player 10",
+        "Afghanistan Squad Player 11"
       ],
       "away": [
-        "Rohit Sharma (C)",
-        "Yashasvi Jaiswal",
-        "KL Rahul",
-        "Virat Kohli",
-        "Rishabh Pant (WK)",
-        "Dhruv Jurel",
-        "Nitish Kumar Reddy",
-        "Washington Sundar",
-        "Jasprit Bumrah",
-        "Mohammed Siraj",
-        "Akash Deep"
+        "Zimbabwe Squad Player 1",
+        "Zimbabwe Squad Player 2",
+        "Zimbabwe Squad Player 3",
+        "Zimbabwe Squad Player 4",
+        "Zimbabwe Squad Player 5",
+        "Zimbabwe Squad Player 6",
+        "Zimbabwe Squad Player 7",
+        "Zimbabwe Squad Player 8",
+        "Zimbabwe Squad Player 9",
+        "Zimbabwe Squad Player 10",
+        "Zimbabwe Squad Player 11"
       ]
     }
   },
   {
-    "id": "m2",
-    "tournament": "Pakistan Tour of Zimbabwe - 1st ODI",
+    "id": "live_2",
+    "tournament": "International Tour & Series 2026",
     "format": "ODI",
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Zimbabwe",
-      "short": "ZIM",
-      "flag": "🇿🇼",
-      "score": "205",
-      "overs": "40.2",
-      "runs": 205,
-      "wickets": 10,
-      "currentOver": 40,
-      "currentBall": 2
-    },
-    "teamAway": {
-      "name": "Pakistan",
-      "short": "PAK",
-      "flag": "🇵🇰",
-      "score": "164/3",
-      "overs": "28.4",
-      "runs": 164,
-      "wickets": 3,
-      "currentOver": 28,
+      "name": "South Africa",
+      "short": "SOU",
+      "flag": "🇿🇦",
+      "score": "In Progress",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
       "currentBall": 4
     },
-    "battingFirst": "Zimbabwe",
-    "currentBatting": "Pakistan",
-    "situation": "Pakistan need 42 runs in 128 balls with 7 wickets in hand.",
-    "crr": "5.72",
-    "rrr": "1.96",
-    "venue": "Queens Sports Club, Bulawayo, Zimbabwe",
-    "toss": "Pakistan won the toss and elected to bowl",
-    "pitch": "True batting surface with consistent bounce; spinners getting subtle grip",
-    "weather": "26°C Sunny, low humidity",
+    "teamAway": {
+      "name": "Bangladesh",
+      "short": "BAN",
+      "flag": "🇧🇩",
+      "score": "396/9 *",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "South Africa",
+    "currentBatting": "Bangladesh",
+    "situation": "Live in progress: South Africa vs Bangladesh",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "South Africa vs Bangladesh underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
     "batter1": {
-      "name": "Kamran Ghulam",
-      "runs": 62,
-      "balls": 58,
-      "fours": 6,
-      "sixes": 2,
-      "sr": "106.9"
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
     },
     "batter2": {
-      "name": "Mohammad Rizwan",
-      "runs": 39,
-      "balls": 44,
-      "fours": 3,
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
       "sixes": 0,
-      "sr": "88.6"
+      "sr": "115.7"
     },
     "bowler": {
-      "name": "Sikandar Raza",
+      "name": "Lead Bowler",
       "overs": "6.4",
-      "maidens": 0,
-      "runs": 34,
-      "wickets": 1,
-      "econ": "5.10"
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
     },
     "recentBalls": [
       "1",
       "4",
-      "1",
       "0",
-      "2",
-      "1"
+      "1",
+      "W",
+      "2"
     ],
     "commentary": [
       {
-        "over": "28.4",
-        "desc": "Raza to Kamran Ghulam, 1 run, worked off the hip towards fine leg."
-      },
-      {
-        "over": "28.3",
-        "desc": "Raza to Kamran Ghulam, <strong>FOUR!</strong> Stepped down the track and carved through cover point!"
+        "over": "Live",
+        "desc": "Match update: South Africa v Bangladesh 396/9 *"
       }
     ],
     "playingXI": {
       "home": [
-        "Joylord Gumbie (WK)",
-        "Tadiwanashe Marumani",
-        "Dion Myers",
-        "Craig Ervine (C)",
-        "Sikandar Raza",
-        "Ryan Burl",
-        "Clive Madande",
-        "Faraz Akram",
-        "Wellington Masakadza",
-        "Richard Ngarava",
-        "Blessing Muzarabani"
+        "South Africa Squad Player 1",
+        "South Africa Squad Player 2",
+        "South Africa Squad Player 3",
+        "South Africa Squad Player 4",
+        "South Africa Squad Player 5",
+        "South Africa Squad Player 6",
+        "South Africa Squad Player 7",
+        "South Africa Squad Player 8",
+        "South Africa Squad Player 9",
+        "South Africa Squad Player 10",
+        "South Africa Squad Player 11"
       ],
       "away": [
-        "Saim Ayub",
-        "Abdullah Shafique",
-        "Kamran Ghulam",
-        "Mohammad Rizwan (C & WK)",
-        "Salman Ali Agha",
-        "Irfan Khan",
-        "Aamer Jamal",
-        "Shaheen Afridi",
-        "Haris Rauf",
-        "Abrar Ahmed",
-        "Faisal Akram"
+        "Bangladesh Squad Player 1",
+        "Bangladesh Squad Player 2",
+        "Bangladesh Squad Player 3",
+        "Bangladesh Squad Player 4",
+        "Bangladesh Squad Player 5",
+        "Bangladesh Squad Player 6",
+        "Bangladesh Squad Player 7",
+        "Bangladesh Squad Player 8",
+        "Bangladesh Squad Player 9",
+        "Bangladesh Squad Player 10",
+        "Bangladesh Squad Player 11"
       ]
     }
   },
   {
-    "id": "m3",
-    "tournament": "Border-Gavaskar Trophy - 1st Test (Perth)",
+    "id": "live_3",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "New South Wales",
+      "short": "NEW",
+      "flag": "🇦🇺",
+      "score": "108/10 *",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "South Australia",
+      "short": "SOU",
+      "flag": "🇦🇺",
+      "score": "236/3",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "New South Wales",
+    "currentBatting": "New South Wales",
+    "situation": "Live in progress: New South Wales vs South Australia",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "New South Wales vs South Australia underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: New South Wales 108/10 * v South Australia 236/3 "
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "New South Wales Squad Player 1",
+        "New South Wales Squad Player 2",
+        "New South Wales Squad Player 3",
+        "New South Wales Squad Player 4",
+        "New South Wales Squad Player 5",
+        "New South Wales Squad Player 6",
+        "New South Wales Squad Player 7",
+        "New South Wales Squad Player 8",
+        "New South Wales Squad Player 9",
+        "New South Wales Squad Player 10",
+        "New South Wales Squad Player 11"
+      ],
+      "away": [
+        "South Australia Squad Player 1",
+        "South Australia Squad Player 2",
+        "South Australia Squad Player 3",
+        "South Australia Squad Player 4",
+        "South Australia Squad Player 5",
+        "South Australia Squad Player 6",
+        "South Australia Squad Player 7",
+        "South Australia Squad Player 8",
+        "South Australia Squad Player 9",
+        "South Australia Squad Player 10",
+        "South Australia Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Queensland",
+      "short": "QUE",
+      "flag": "🇦🇺",
+      "score": "241/9",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Tasmania",
+      "short": "TAS",
+      "flag": "🇦🇺",
+      "score": "164/3 *",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Queensland",
+    "currentBatting": "Tasmania",
+    "situation": "Live in progress: Queensland vs Tasmania",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Queensland vs Tasmania underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Queensland 241/9  v Tasmania 164/3 *"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Queensland Squad Player 1",
+        "Queensland Squad Player 2",
+        "Queensland Squad Player 3",
+        "Queensland Squad Player 4",
+        "Queensland Squad Player 5",
+        "Queensland Squad Player 6",
+        "Queensland Squad Player 7",
+        "Queensland Squad Player 8",
+        "Queensland Squad Player 9",
+        "Queensland Squad Player 10",
+        "Queensland Squad Player 11"
+      ],
+      "away": [
+        "Tasmania Squad Player 1",
+        "Tasmania Squad Player 2",
+        "Tasmania Squad Player 3",
+        "Tasmania Squad Player 4",
+        "Tasmania Squad Player 5",
+        "Tasmania Squad Player 6",
+        "Tasmania Squad Player 7",
+        "Tasmania Squad Player 8",
+        "Tasmania Squad Player 9",
+        "Tasmania Squad Player 10",
+        "Tasmania Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "m_bgt_1",
+    "tournament": "Border-Gavaskar Trophy - 1st Test (Perth Stadium)",
     "format": "Test",
     "status": "recent",
     "featured": false,
@@ -257,12 +453,12 @@ const MATCHES_DATA = [
     },
     "battingFirst": "India",
     "currentBatting": "Australia",
-    "situation": "India won by 295 runs! Jasprit Bumrah takes 8 wickets (5/30 in 1st innings).",
+    "situation": "India won by 295 runs! Jasprit Bumrah takes 8 wickets (5/30 in 1st inn).",
     "crr": "3.62",
     "rrr": "-",
     "venue": "Perth Stadium, Perth, Australia",
     "toss": "India won the toss and elected to bat first",
-    "pitch": "Fiery Optus Stadium surface with steep bounce and lethal pace",
+    "pitch": "Optus Stadium surface with steep bounce and lethal pace",
     "weather": "28°C Sunny and warm",
     "batter1": {
       "name": "Yashasvi Jaiswal",
@@ -298,11 +494,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "58.4",
-        "desc": "<strong>WICKET!</strong> Bumrah cleans up the tail! Australia are bowled out for 238, India record a monumental 295-run victory!"
-      },
-      {
-        "over": "58.3",
-        "desc": "Bumrah to Hazlewood, no run, searing yorker dug out right in the blockhole."
+        "desc": "WICKET! Bumrah cleans up the tail! India seal a memorable 295-run win in Perth!"
       }
     ],
     "playingXI": {
@@ -335,7 +527,7 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "m4",
+    "id": "m_pak_aus",
     "tournament": "Pakistan Tour of Australia - 3rd ODI Decider",
     "format": "ODI",
     "status": "recent",
@@ -369,7 +561,7 @@ const MATCHES_DATA = [
     "rrr": "-",
     "venue": "Perth Stadium, Perth, Australia",
     "toss": "Pakistan won the toss and elected to bowl",
-    "pitch": "Lethal bounce exploited by Pakistan pacers",
+    "pitch": "Pacey track exploited by Pakistan fast bowling unit",
     "weather": "25°C Clear Sky",
     "batter1": {
       "name": "Saim Ayub",
@@ -405,7 +597,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "26.5",
-        "desc": "<strong>FOUR!</strong> Babar Azam pulls through midwicket to seal Pakistan's first ODI series victory in Australia in 22 years!"
+        "desc": "FOUR! Babar Azam pulls through midwicket to seal Pakistan's first ODI series win in Australia in 22 years!"
       }
     ],
     "playingXI": {
@@ -438,7 +630,7 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "m5",
+    "id": "m_ind_sa",
     "tournament": "India Tour of South Africa - 4th T20I",
     "format": "T20I",
     "status": "recent",
@@ -467,7 +659,7 @@ const MATCHES_DATA = [
     },
     "battingFirst": "India",
     "currentBatting": "South Africa",
-    "situation": "India won by 135 runs! Twin centuries by Tilak Varma (120*) & Sanju Samson (109*).",
+    "situation": "India won by 135 runs! Twin centuries: Tilak Varma (120*) & Sanju Samson (109*).",
     "crr": "14.15",
     "rrr": "-",
     "venue": "The Wanderers Stadium, Johannesburg",
@@ -507,7 +699,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "18.2",
-        "desc": "<strong>WICKET!</strong> Ramandeep takes a sharp catch at deep midwicket! South Africa are bowled out for 148."
+        "desc": "WICKET! Ramandeep takes a sharp catch at deep midwicket! South Africa bowled out for 148."
       }
     ],
     "playingXI": {
@@ -540,167 +732,8 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "m6",
-    "tournament": "ICC World Test Championship - South Africa vs Sri Lanka 1st Test",
-    "format": "Test",
-    "status": "recent",
-    "featured": false,
-    "teamHome": {
-      "name": "South Africa",
-      "short": "SA",
-      "flag": "🇿🇦",
-      "score": "191 & 366/5 d",
-      "overs": "103.0",
-      "runs": 366,
-      "wickets": 5,
-      "currentOver": 103,
-      "currentBall": 0
-    },
-    "teamAway": {
-      "name": "Sri Lanka",
-      "short": "SL",
-      "flag": "🇱🇰",
-      "score": "42 & 282",
-      "overs": "79.0",
-      "runs": 282,
-      "wickets": 10,
-      "currentOver": 79,
-      "currentBall": 0
-    },
-    "battingFirst": "South Africa",
-    "currentBatting": "Sri Lanka",
-    "situation": "South Africa won by 233 runs. Marco Jansen took 11 wickets in the match (7/13 in 1st inn).",
-    "crr": "3.55",
-    "rrr": "-",
-    "venue": "Kingsmead, Durban, South Africa",
-    "toss": "Sri Lanka won the toss and elected to bowl",
-    "pitch": "Green seaming pitch with lethal seam movement and swing",
-    "weather": "24°C Humid coastal condition",
-    "batter1": {
-      "name": "Tristan Stubbs",
-      "runs": 122,
-      "balls": 221,
-      "fours": 9,
-      "sixes": 1,
-      "sr": "55.2"
-    },
-    "batter2": {
-      "name": "Temba Bavuma",
-      "runs": 113,
-      "balls": 218,
-      "fours": 11,
-      "sixes": 0,
-      "sr": "51.8"
-    },
-    "bowler": {
-      "name": "Marco Jansen",
-      "overs": "16.0",
-      "maidens": 4,
-      "runs": 73,
-      "wickets": 4,
-      "econ": "4.56"
-    },
-    "recentBalls": [
-      "W",
-      "0",
-      "0",
-      "1",
-      "W"
-    ],
-    "commentary": [
-      {
-        "over": "79.0",
-        "desc": "<strong>WICKET!</strong> Marco Jansen cleans up Asitha Fernando! South Africa wrap up a crushing 233-run victory at Kingsmead!"
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "Aiden Markram",
-        "Tony de Zorzi",
-        "Tristan Stubbs",
-        "Temba Bavuma (C)",
-        "David Bedingham",
-        "Kyle Verreynne (WK)",
-        "Marco Jansen",
-        "Keshav Maharaj",
-        "Gerald Coetzee",
-        "Kagiso Rabada",
-        "Dane Paterson"
-      ],
-      "away": [
-        "Pathum Nissanka",
-        "Dimuth Karunaratne",
-        "Dinesh Chandimal",
-        "Angelo Mathews",
-        "Kamindu Mendis",
-        "Dhananjaya de Silva (C)",
-        "Kusal Mendis (WK)",
-        "Prabath Jayasuriya",
-        "Lahiru Kumara",
-        "Asitha Fernando",
-        "Vishwa Fernando"
-      ]
-    }
-  },
-  {
-    "id": "m7",
-    "tournament": "ICC World Test Championship - South Africa vs Sri Lanka 2nd Test",
-    "format": "Test",
-    "status": "upcoming",
-    "featured": false,
-    "teamHome": {
-      "name": "South Africa",
-      "short": "SA",
-      "flag": "🇿🇦",
-      "score": "Yet to bat",
-      "overs": "-",
-      "runs": 0,
-      "wickets": 0
-    },
-    "teamAway": {
-      "name": "Sri Lanka",
-      "short": "SL",
-      "flag": "🇱🇰",
-      "score": "Yet to bat",
-      "overs": "-",
-      "runs": 0,
-      "wickets": 0
-    },
-    "situation": "Crucial WTC fixture at St George's Park; Proteas push for World Test Championship final spot.",
-    "venue": "St George's Park, Gqeberha, South Africa",
-    "toss": "Scheduled before Day 1 start",
-    "pitch": "Abrasive surface offering reverse swing and reverse spin on Days 4 & 5",
-    "weather": "22°C Windy coastal conditions",
-    "playingXI": {
-      "home": [
-        "Aiden Markram",
-        "Tony de Zorzi",
-        "Tristan Stubbs",
-        "Temba Bavuma (C)",
-        "David Bedingham",
-        "Kyle Verreynne (WK)",
-        "Marco Jansen",
-        "Keshav Maharaj",
-        "Kagiso Rabada",
-        "Dane Paterson"
-      ],
-      "away": [
-        "Pathum Nissanka",
-        "Dimuth Karunaratne",
-        "Dinesh Chandimal",
-        "Kamindu Mendis",
-        "Angelo Mathews",
-        "Dhananjaya de Silva (C)",
-        "Kusal Mendis (WK)",
-        "Prabath Jayasuriya",
-        "Lahiru Kumara",
-        "Asitha Fernando"
-      ]
-    }
-  },
-  {
-    "id": "m8",
-    "tournament": "Border-Gavaskar Trophy - 3rd Test (The Gabba)",
+    "id": "m_adelaide_pink",
+    "tournament": "Border-Gavaskar Trophy - 2nd Test (Adelaide Oval)",
     "format": "Test",
     "status": "upcoming",
     "featured": false,
@@ -722,11 +755,11 @@ const MATCHES_DATA = [
       "runs": 0,
       "wickets": 0
     },
-    "situation": "The Gabba Test match in Brisbane; high bounce and fast outfield expected.",
-    "venue": "The Gabba, Brisbane, Australia",
-    "toss": "Day 1 toss at 09:30 local time",
-    "pitch": "Traditional bouncy Gabba wicket with early seam and great carry",
-    "weather": "29°C Humid, afternoon storm risk",
+    "situation": "Day-Night Pink Ball Test match at Adelaide Oval. Rohit Sharma returns to lead India.",
+    "venue": "Adelaide Oval, Adelaide, Australia",
+    "toss": "Scheduled on Day 1 at 14:00 local time",
+    "pitch": "True Adelaide wicket; sharp seam movement expected under twilight lights",
+    "weather": "25°C Clear evening",
     "playingXI": {
       "home": [
         "Usman Khawaja",
@@ -739,7 +772,7 @@ const MATCHES_DATA = [
         "Pat Cummins (C)",
         "Mitchell Starc",
         "Nathan Lyon",
-        "Josh Hazlewood"
+        "Scott Boland"
       ],
       "away": [
         "Rohit Sharma (C)",
