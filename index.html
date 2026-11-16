@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CricPulse World | Global Cricket Hub & Live Scores</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- Top Global Ticker -->
+  <div class="top-ticker-bar">
+    <div class="ticker-badge"><i class="fa-solid fa-satellite-dish fa-beat"></i> LIVE WORLD TICKER</div>
+    <div class="ticker-marquee-wrapper">
+      <div class="ticker-track" id="tickerTrack">
+        <!-- Dynamically injected live chips -->
+      </div>
+    </div>
+    <div class="ticker-controls">
+      <button id="toggleLiveSimBtn" class="pill-btn pulse-accent" title="Toggle Real-Time Ball Simulation">
+        <i class="fa-solid fa-play"></i> <span id="simBtnText">Live Auto-Update: ON</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="brand-logo">
+        <div class="logo-icon">
+          <i class="fa-solid fa-baseball-bat-ball"></i>
+        </div>
+        <div class="logo-text">
+          <h1>CRIC<span>PULSE</span></h1>
+          <p class="tagline">World Cricket Center</p>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#matches" class="nav-item active"><i class="fa-solid fa-tv"></i> World Matches</a>
+        <a href="#series" class="nav-item"><i class="fa-solid fa-trophy"></i> Tournaments</a>
+        <a href="#rankings" class="nav-item"><i class="fa-solid fa-ranking-star"></i> ICC Rankings</a>
+        <a href="#news" class="nav-item"><i class="fa-solid fa-newspaper"></i> Global News</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="globalSearch" placeholder="Search team, country, player...">
+        </div>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Spotlight / Featured World Clash -->
+  <section class="hero-spotlight" id="heroSpotlight">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="featured-tag">
+        <span class="live-dot"></span> ICC CHAMPIONS TROPHY - FINAL
+      </div>
+      <div class="featured-match-banner" id="featuredMatchBanner">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Match Center Section -->
+  <main class="main-content" id="matches">
+    <div class="container">
+      <!-- Section Header & Filters -->
+      <div class="section-top-bar">
+        <div>
+          <h2 class="section-title"><i class="fa-solid fa-earth-americas"></i> Global Matches</h2>
+          <p class="section-subtitle">Real-time international and premier league fixtures across all formats</p>
+        </div>
+
+        <!-- Format & Status Filters -->
+        <div class="filter-group">
+          <!-- Status Filters -->
+          <div class="segmented-control" id="statusFilter">
+            <button class="segment-btn active" data-status="all">All</button>
+            <button class="segment-btn" data-status="live"><span class="badge-dot"></span> Live (3)</button>
+            <button class="segment-btn" data-status="upcoming">Upcoming</button>
+            <button class="segment-btn" data-status="recent">Completed</button>
+          </div>
+          
+          <!-- Format Dropdown -->
+          <select id="formatFilter" class="custom-select">
+            <option value="all">All Formats (T20, ODI, Test, Leagues)</option>
+            <option value="T20I">T20 International</option>
+            <option value="ODI">One Day International</option>
+            <option value="Test">Test Match</option>
+            <option value="League">T20 Leagues (IPL, BBL, PSL)</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Quick Country / Team Chips -->
+      <div class="team-filter-bar">
+        <span class="filter-label"><i class="fa-solid fa-filter"></i> Countries:</span>
+        <div class="team-chips" id="teamChipsContainer">
+          <button class="team-chip active" data-team="all">All Teams</button>
+          <button class="team-chip" data-team="India"><span class="flag">🇮🇳</span> India</button>
+          <button class="team-chip" data-team="Australia"><span class="flag">🇦🇺</span> Australia</button>
+          <button class="team-chip" data-team="England"><span class="flag">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span> England</button>
+          <button class="team-chip" data-team="Pakistan"><span class="flag">🇵🇰</span> Pakistan</button>
+          <button class="team-chip" data-team="South Africa"><span class="flag">🇿🇦</span> South Africa</button>
+          <button class="team-chip" data-team="New Zealand"><span class="flag">🇳🇿</span> New Zealand</button>
+          <button class="team-chip" data-team="West Indies"><span class="flag">🌴</span> West Indies</button>
+          <button class="team-chip" data-team="Sri Lanka"><span class="flag">🇱🇰</span> Sri Lanka</button>
+          <button class="team-chip" data-team="Afghanistan"><span class="flag">🇦🇫</span> Afghanistan</button>
+          <button class="team-chip" data-team="Bangladesh"><span class="flag">🇧🇩</span> Bangladesh</button>
+        </div>
+      </div>
+
+      <!-- Matches Grid -->
+      <div class="matches-grid" id="matchesGrid">
+        <!-- Match cards rendered here dynamically -->
+      </div>
+      <div class="no-results hidden" id="noResults">
+        <i class="fa-solid fa-cricket-bat-ball fa-3x"></i>
+        <h3>No matches found</h3>
+        <p>Try resetting filters or searching for another team.</p>
+        <button class="btn btn-outline" id="resetFiltersBtn">Reset Filters</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- Global Tournaments & Series -->
+  <section class="series-section" id="series">
+    <div class="container">
+      <div class="section-top-bar">
+        <div>
+          <h2 class="section-title"><i class="fa-solid fa-trophy"></i> World Series & Tournaments</h2>
+          <p class="section-subtitle">Premier world championships, bilateral series, and domestic leagues</p>
+        </div>
+      </div>
+
+      <div class="series-cards-grid">
+        <div class="tournament-card">
+          <div class="tour-header">
+            <span class="tour-badge badge-icc">ICC Global Event</span>
+            <span class="tour-dates">Oct - Nov 2026</span>
+          </div>
+          <div class="tour-body">
+            <div class="tour-icon"><i class="fa-solid fa-globe"></i></div>
+            <h3>ICC Men's T20 World Cup</h3>
+            <p>20 Nations competing for ultimate world glory across 55 matches in India & Sri Lanka.</p>
+            <div class="tour-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Multi-City</span>
+              <span><i class="fa-solid fa-users"></i> 20 Teams</span>
+            </div>
+          </div>
+          <div class="tour-footer">
+            <span class="status-live-indicator"><span class="pulse-glow"></span> Ongoing Round 2</span>
+            <button class="btn btn-sm" onclick="filterByTournament('ICC Men\'s T20 World Cup')">View Fixtures</button>
+          </div>
+        </div>
+
+        <div class="tournament-card">
+          <div class="tour-header">
+            <span class="tour-badge badge-historic">The Historic Clashes</span>
+            <span class="tour-dates">Current 2026</span>
+          </div>
+          <div class="tour-body">
+            <div class="tour-icon"><i class="fa-solid fa-fire"></i></div>
+            <h3>The Ashes Series (AUS vs ENG)</h3>
+            <p>5-Test series battle for cricket's oldest and most prestigious urn of pride.</p>
+            <div class="tour-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Melbourne & Sydney</span>
+              <span><i class="fa-solid fa-shield-halved"></i> 5 Tests</span>
+            </div>
+          </div>
+          <div class="tour-footer">
+            <span class="status-live-indicator"><span class="pulse-glow red"></span> 3rd Test Live</span>
+            <button class="btn btn-sm" onclick="filterByTournament('The Ashes')">View Fixtures</button>
+          </div>
+        </div>
+
+        <div class="tournament-card">
+          <div class="tour-header">
+            <span class="tour-badge badge-league">T20 Franchise</span>
+            <span class="tour-dates">Mar - May 2026</span>
+          </div>
+          <div class="tour-body">
+            <div class="tour-icon"><i class="fa-solid fa-bolt"></i></div>
+            <h3>Indian Premier League (IPL)</h3>
+            <p>The richest T20 cricket league in the world featuring all international superstars.</p>
+            <div class="tour-meta">
+              <span><i class="fa-solid fa-location-dot"></i> India</span>
+              <span><i class="fa-solid fa-star"></i> 10 Franchises</span>
+            </div>
+          </div>
+          <div class="tour-footer">
+            <span class="status-live-indicator">Upcoming Season</span>
+            <button class="btn btn-sm" onclick="filterByTournament('IPL')">View Teams</button>
+          </div>
+        </div>
+
+        <div class="tournament-card">
+          <div class="tour-header">
+            <span class="tour-badge badge-icc">ICC Championship</span>
+            <span class="tour-dates">2025 - 2027</span>
+          </div>
+          <div class="tour-body">
+            <div class="tour-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+            <h3>ICC World Test Championship</h3>
+            <p>Top 9 Test-playing nations fight in grueling two-year cycles for the Test Mace.</p>
+            <div class="tour-meta">
+              <span><i class="fa-solid fa-location-dot"></i> Lord's Final</span>
+              <span><i class="fa-solid fa-layer-group"></i> 9 Test Teams</span>
+            </div>
+          </div>
+          <div class="tour-footer">
+            <span class="status-live-indicator">Standings Live</span>
+            <button class="btn btn-sm" onclick="filterByTournament('World Test Championship')">Table</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ICC Official World Rankings Section -->
+  <section class="rankings-section" id="rankings">
+    <div class="container">
+      <div class="section-top-bar">
+        <div>
+          <h2 class="section-title"><i class="fa-solid fa-ranking-star"></i> ICC World Rankings</h2>
+          <p class="section-subtitle">Official Men's International Team Standing & Ratings</p>
+        </div>
+        <div class="segmented-control" id="rankingsFormatSelector">
+          <button class="segment-btn active" data-rank-format="t20">T20I</button>
+          <button class="segment-btn" data-rank-format="odi">ODI</button>
+          <button class="segment-btn" data-rank-format="test">TEST</button>
+        </div>
+      </div>
+
+      <div class="rankings-table-container">
+        <table class="rankings-table">
+          <thead>
+            <tr>
+              <th style="width: 80px;">Pos</th>
+              <th>Country / Team</th>
+              <th>Matches</th>
+              <th>Points</th>
+              <th>Rating</th>
+              <th style="width: 120px;">Trend</th>
+            </tr>
+          </thead>
+          <tbody id="rankingsTableBody">
+            <!-- Dynamic table rows -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Cricket News & Highlights -->
+  <section class="news-section" id="news">
+    <div class="container">
+      <div class="section-top-bar">
+        <div>
+          <h2 class="section-title"><i class="fa-solid fa-newspaper"></i> World Cricket Headlines</h2>
+          <p class="section-subtitle">Breaking news, tactical post-match breakdowns, and exclusive reports</p>
+        </div>
+      </div>
+
+      <div class="news-grid" id="newsGrid">
+        <!-- Rendered dynamically -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Match Detail / Scorecard Modal -->
+  <div class="modal-backdrop" id="matchModalBackdrop">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-box">
+          <span class="modal-series-badge" id="modalSeriesName">Series Name</span>
+          <h3 id="modalMatchTitle">Team A vs Team B</h3>
+          <p class="modal-venue" id="modalVenue"><i class="fa-solid fa-location-dot"></i> Stadium, City</p>
+        </div>
+        <button class="close-modal-btn" id="closeModalBtn" aria-label="Close modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="modal-summary-banner" id="modalSummaryBanner">
+        <!-- Live summary with flags and status -->
+      </div>
+
+      <!-- Modal Tabs -->
+      <div class="modal-tabs">
+        <button class="modal-tab-btn active" data-tab="liveFeed">
+          <i class="fa-solid fa-bolt"></i> Live Commentary
+        </button>
+        <button class="modal-tab-btn" data-tab="scorecard">
+          <i class="fa-solid fa-clipboard-list"></i> Full Scorecard
+        </button>
+        <button class="modal-tab-btn" data-tab="teams">
+          <i class="fa-solid fa-people-group"></i> Playing XI
+        </button>
+        <button class="modal-tab-btn" data-tab="info">
+          <i class="fa-solid fa-circle-info"></i> Match Info & Pitch
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Tab 1: Live Ball by Ball -->
+        <div class="tab-pane active" id="tabLiveFeed">
+          <div class="over-summary-bar" id="modalOverSummary">
+            <!-- Recent balls (e.g. 1, 4, W, 0, 6, 2) -->
+          </div>
+          <div class="commentary-feed" id="modalCommentaryFeed">
+            <!-- Commentary items -->
+          </div>
+        </div>
+
+        <!-- Tab 2: Full Scorecard -->
+        <div class="tab-pane" id="tabScorecard">
+          <div class="scorecard-container" id="modalScorecardContainer">
+            <!-- Tables for batters and bowlers -->
+          </div>
+        </div>
+
+        <!-- Tab 3: Playing XI -->
+        <div class="tab-pane" id="tabTeams">
+          <div class="squads-container" id="modalSquadsContainer">
+            <!-- Both teams squads list -->
+          </div>
+        </div>
+
+        <!-- Tab 4: Match Info -->
+        <div class="tab-pane" id="tabInfo">
+          <div class="match-info-grid" id="modalInfoGrid">
+            <!-- Match info details -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <div class="brand-logo">
+          <div class="logo-icon"><i class="fa-solid fa-baseball-bat-ball"></i></div>
+          <div class="logo-text">
+            <h2>CRIC<span>PULSE</span></h2>
+          </div>
+        </div>
+        <p>Your premier digital portal for cricket matches around the world. Covering Test matches, ODIs, T20 Internationals, and premier leagues in real-time with comprehensive stats and live updates.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>World Cricket</h4>
+        <ul>
+          <li><a href="#" onclick="filterByFormat('Test')">Test Championships</a></li>
+          <li><a href="#" onclick="filterByFormat('ODI')">ICC Men's World Cup</a></li>
+          <li><a href="#" onclick="filterByFormat('T20I')">T20 Internationals</a></li>
+          <li><a href="#" onclick="filterByFormat('League')">T20 Franchise Leagues</a></li>
+          <li><a href="#rankings">ICC Official Rankings</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col">
+        <h4>Featured Teams</h4>
+        <ul>
+          <li><a href="#" onclick="filterByTeam('India')">India National Team</a></li>
+          <li><a href="#" onclick="filterByTeam('Australia')">Australia National Team</a></li>
+          <li><a href="#" onclick="filterByTeam('England')">England Cricket Team</a></li>
+          <li><a href="#" onclick="filterByTeam('Pakistan')">Pakistan National Team</a></li>
+          <li><a href="#" onclick="filterByTeam('South Africa')">South Africa Proteas</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-col newsletter-col">
+        <h4>World Cricket Alerts</h4>
+        <p>Get instant alerts for match starts, super overs, and historic milestone records.</p>
+        <form class="newsletter-form" onsubmit="event.preventDefault(); alert('Subscribed to World Cricket Alerts!');">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; 2026 CricPulse World Cricket. Built with modern HTML5, CSS3, and JavaScript.</p>
+        <div class="footer-sub-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Live Data APIs</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
