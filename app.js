@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Zimbabwe",
       "short": "ZIM",
       "flag": "🇿🇼",
-      "score": "339/10 &  268/9 *",
+      "score": "268/9 &  339/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Afghanistan 217/10  v Zimbabwe 339/10 &  268/9 *"
+        "desc": "Match update: Afghanistan 217/10  v Zimbabwe 268/9 &  339/10 *"
       }
     ],
     "playingXI": {
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Bangladesh",
       "short": "BAN",
       "flag": "🇧🇩",
-      "score": "396/9 *",
+      "score": "400/9 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa v Bangladesh 396/9 *"
+        "desc": "Match update: South Africa v Bangladesh 400/9 *"
       }
     ],
     "playingXI": {
