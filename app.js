@@ -10,118 +10,14 @@ const MATCHES_DATA = [
   {
     "id": "live_1",
     "tournament": "International Tour & Series 2026",
-    "format": "Test",
-    "status": "live",
-    "featured": true,
-    "teamHome": {
-      "name": "Afghanistan",
-      "short": "AFG",
-      "flag": "🇦🇫",
-      "score": "217/10 &  150/5 *",
-      "overs": "Live",
-      "runs": 150,
-      "wickets": 4,
-      "currentOver": 32,
-      "currentBall": 4
-    },
-    "teamAway": {
-      "name": "Zimbabwe",
-      "short": "ZIM",
-      "flag": "🇿🇼",
-      "score": "295/9 &  339/10",
-      "overs": "Live",
-      "runs": 140,
-      "wickets": 3,
-      "currentOver": 28,
-      "currentBall": 2
-    },
-    "battingFirst": "Afghanistan",
-    "currentBatting": "Afghanistan",
-    "situation": "Live in progress: Afghanistan vs Zimbabwe",
-    "crr": "4.25",
-    "rrr": "5.10",
-    "venue": "Official International Stadium",
-    "toss": "Afghanistan vs Zimbabwe underway",
-    "pitch": "International standard pitch with competitive bounce",
-    "weather": "25°C Good conditions",
-    "batter1": {
-      "name": "Key Batter",
-      "runs": 45,
-      "balls": 38,
-      "fours": 5,
-      "sixes": 1,
-      "sr": "118.4"
-    },
-    "batter2": {
-      "name": "Support Batter",
-      "runs": 22,
-      "balls": 19,
-      "fours": 2,
-      "sixes": 0,
-      "sr": "115.7"
-    },
-    "bowler": {
-      "name": "Lead Bowler",
-      "overs": "6.4",
-      "maidens": 1,
-      "runs": 28,
-      "wickets": 2,
-      "econ": "4.20"
-    },
-    "recentBalls": [
-      "1",
-      "4",
-      "0",
-      "1",
-      "W",
-      "2"
-    ],
-    "commentary": [
-      {
-        "over": "Live",
-        "desc": "Match update: Afghanistan 217/10 &  150/5 * v Zimbabwe 295/9 &  339/10 "
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "Afghanistan Squad Player 1",
-        "Afghanistan Squad Player 2",
-        "Afghanistan Squad Player 3",
-        "Afghanistan Squad Player 4",
-        "Afghanistan Squad Player 5",
-        "Afghanistan Squad Player 6",
-        "Afghanistan Squad Player 7",
-        "Afghanistan Squad Player 8",
-        "Afghanistan Squad Player 9",
-        "Afghanistan Squad Player 10",
-        "Afghanistan Squad Player 11"
-      ],
-      "away": [
-        "Zimbabwe Squad Player 1",
-        "Zimbabwe Squad Player 2",
-        "Zimbabwe Squad Player 3",
-        "Zimbabwe Squad Player 4",
-        "Zimbabwe Squad Player 5",
-        "Zimbabwe Squad Player 6",
-        "Zimbabwe Squad Player 7",
-        "Zimbabwe Squad Player 8",
-        "Zimbabwe Squad Player 9",
-        "Zimbabwe Squad Player 10",
-        "Zimbabwe Squad Player 11"
-      ]
-    }
-  },
-  {
-    "id": "live_2",
-    "tournament": "International Tour & Series 2026",
     "format": "ODI",
     "status": "live",
-    "featured": false,
+    "featured": true,
     "teamHome": {
       "name": "South Africa",
       "short": "SOU",
       "flag": "🇿🇦",
-      "score": "287/4 *",
+      "score": "386/7 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -183,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa 287/4 * v Bangladesh 400/10 "
+        "desc": "Match update: South Africa 386/7 * v Bangladesh 400/10 "
       }
     ],
     "playingXI": {
@@ -216,7 +112,7 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_3",
+    "id": "live_2",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
     "status": "live",
@@ -225,7 +121,7 @@ const MATCHES_DATA = [
       "name": "Pakistan",
       "short": "PAK",
       "flag": "🇵🇰",
-      "score": "In Progress",
+      "score": "121/3 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -236,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Sri Lanka",
       "short": "SRI",
       "flag": "🇱🇰",
-      "score": "52/5 *",
+      "score": "98/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -244,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Pakistan",
-    "currentBatting": "Sri Lanka",
+    "currentBatting": "Pakistan",
     "situation": "Live in progress: Pakistan vs Sri Lanka",
     "crr": "4.25",
     "rrr": "5.10",
@@ -287,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan v Sri Lanka 52/5 *"
+        "desc": "Match update: Pakistan 121/3 * v Sri Lanka 98/10 "
       }
     ],
     "playingXI": {
@@ -320,16 +216,16 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_4",
+    "id": "live_3",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "upcoming",
+    "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Mashonaland Eagles",
       "short": "MAS",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "69/10",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -340,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Mountaineers",
       "short": "MOU",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "73/2 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Mashonaland Eagles v Mountaineers"
+        "desc": "Match update: Mashonaland Eagles 69/10  v Mountaineers 73/2 *"
       }
     ],
     "playingXI": {
@@ -420,6 +316,110 @@ const MATCHES_DATA = [
         "Mountaineers Squad Player 9",
         "Mountaineers Squad Player 10",
         "Mountaineers Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Royal Desert Champions",
+      "short": "ROY",
+      "flag": "🏏",
+      "score": "131/1",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "UAE Bulls",
+      "short": "UAE",
+      "flag": "🏏",
+      "score": "137/4 *",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Royal Desert Champions",
+    "currentBatting": "UAE Bulls",
+    "situation": "Live in progress: Royal Desert Champions vs UAE Bulls",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Royal Desert Champions vs UAE Bulls underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Royal Desert Champions 131/1  v UAE Bulls 137/4 *"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Royal Desert Champions Squad Player 1",
+        "Royal Desert Champions Squad Player 2",
+        "Royal Desert Champions Squad Player 3",
+        "Royal Desert Champions Squad Player 4",
+        "Royal Desert Champions Squad Player 5",
+        "Royal Desert Champions Squad Player 6",
+        "Royal Desert Champions Squad Player 7",
+        "Royal Desert Champions Squad Player 8",
+        "Royal Desert Champions Squad Player 9",
+        "Royal Desert Champions Squad Player 10",
+        "Royal Desert Champions Squad Player 11"
+      ],
+      "away": [
+        "UAE Bulls Squad Player 1",
+        "UAE Bulls Squad Player 2",
+        "UAE Bulls Squad Player 3",
+        "UAE Bulls Squad Player 4",
+        "UAE Bulls Squad Player 5",
+        "UAE Bulls Squad Player 6",
+        "UAE Bulls Squad Player 7",
+        "UAE Bulls Squad Player 8",
+        "UAE Bulls Squad Player 9",
+        "UAE Bulls Squad Player 10",
+        "UAE Bulls Squad Player 11"
       ]
     }
   },
