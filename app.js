@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "Afghanistan",
       "short": "AFG",
       "flag": "🇦🇫",
-      "score": "217/10 &  143/5 *",
+      "score": "217/10 &  150/5 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Afghanistan 217/10 &  143/5 * v Zimbabwe 295/9 &  339/10 "
+        "desc": "Match update: Afghanistan 217/10 &  150/5 * v Zimbabwe 295/9 &  339/10 "
       }
     ],
     "playingXI": {
@@ -222,110 +222,6 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Emirates Eagles",
-      "short": "EMI",
-      "flag": "🏏",
-      "score": "111/2 *",
-      "overs": "Live",
-      "runs": 150,
-      "wickets": 4,
-      "currentOver": 32,
-      "currentBall": 4
-    },
-    "teamAway": {
-      "name": "Royal Desert Champions",
-      "short": "ROY",
-      "flag": "🏏",
-      "score": "110/4",
-      "overs": "Live",
-      "runs": 140,
-      "wickets": 3,
-      "currentOver": 28,
-      "currentBall": 2
-    },
-    "battingFirst": "Emirates Eagles",
-    "currentBatting": "Emirates Eagles",
-    "situation": "Live in progress: Emirates Eagles vs Royal Desert Champions",
-    "crr": "4.25",
-    "rrr": "5.10",
-    "venue": "Official International Stadium",
-    "toss": "Emirates Eagles vs Royal Desert Champions underway",
-    "pitch": "International standard pitch with competitive bounce",
-    "weather": "25°C Good conditions",
-    "batter1": {
-      "name": "Key Batter",
-      "runs": 45,
-      "balls": 38,
-      "fours": 5,
-      "sixes": 1,
-      "sr": "118.4"
-    },
-    "batter2": {
-      "name": "Support Batter",
-      "runs": 22,
-      "balls": 19,
-      "fours": 2,
-      "sixes": 0,
-      "sr": "115.7"
-    },
-    "bowler": {
-      "name": "Lead Bowler",
-      "overs": "6.4",
-      "maidens": 1,
-      "runs": 28,
-      "wickets": 2,
-      "econ": "4.20"
-    },
-    "recentBalls": [
-      "1",
-      "4",
-      "0",
-      "1",
-      "W",
-      "2"
-    ],
-    "commentary": [
-      {
-        "over": "Live",
-        "desc": "Match update: Emirates Eagles 111/2 * v Royal Desert Champions 110/4 "
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "Emirates Eagles Squad Player 1",
-        "Emirates Eagles Squad Player 2",
-        "Emirates Eagles Squad Player 3",
-        "Emirates Eagles Squad Player 4",
-        "Emirates Eagles Squad Player 5",
-        "Emirates Eagles Squad Player 6",
-        "Emirates Eagles Squad Player 7",
-        "Emirates Eagles Squad Player 8",
-        "Emirates Eagles Squad Player 9",
-        "Emirates Eagles Squad Player 10",
-        "Emirates Eagles Squad Player 11"
-      ],
-      "away": [
-        "Royal Desert Champions Squad Player 1",
-        "Royal Desert Champions Squad Player 2",
-        "Royal Desert Champions Squad Player 3",
-        "Royal Desert Champions Squad Player 4",
-        "Royal Desert Champions Squad Player 5",
-        "Royal Desert Champions Squad Player 6",
-        "Royal Desert Champions Squad Player 7",
-        "Royal Desert Champions Squad Player 8",
-        "Royal Desert Champions Squad Player 9",
-        "Royal Desert Champions Squad Player 10",
-        "Royal Desert Champions Squad Player 11"
-      ]
-    }
-  },
-  {
-    "id": "live_4",
-    "tournament": "International Tour & Series 2026",
-    "format": "ODI",
-    "status": "upcoming",
-    "featured": false,
-    "teamHome": {
       "name": "Pakistan",
       "short": "PAK",
       "flag": "🇵🇰",
@@ -340,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Sri Lanka",
       "short": "SRI",
       "flag": "🇱🇰",
-      "score": "In Progress",
+      "score": "52/5 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan v Sri Lanka"
+        "desc": "Match update: Pakistan v Sri Lanka 52/5 *"
       }
     ],
     "playingXI": {
@@ -420,6 +316,110 @@ const MATCHES_DATA = [
         "Sri Lanka Squad Player 9",
         "Sri Lanka Squad Player 10",
         "Sri Lanka Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "upcoming",
+    "featured": false,
+    "teamHome": {
+      "name": "Mashonaland Eagles",
+      "short": "MAS",
+      "flag": "🏏",
+      "score": "In Progress",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Mountaineers",
+      "short": "MOU",
+      "flag": "🏏",
+      "score": "In Progress",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Mashonaland Eagles",
+    "currentBatting": "Mountaineers",
+    "situation": "Live in progress: Mashonaland Eagles vs Mountaineers",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Mashonaland Eagles vs Mountaineers underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Mashonaland Eagles v Mountaineers"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Mashonaland Eagles Squad Player 1",
+        "Mashonaland Eagles Squad Player 2",
+        "Mashonaland Eagles Squad Player 3",
+        "Mashonaland Eagles Squad Player 4",
+        "Mashonaland Eagles Squad Player 5",
+        "Mashonaland Eagles Squad Player 6",
+        "Mashonaland Eagles Squad Player 7",
+        "Mashonaland Eagles Squad Player 8",
+        "Mashonaland Eagles Squad Player 9",
+        "Mashonaland Eagles Squad Player 10",
+        "Mashonaland Eagles Squad Player 11"
+      ],
+      "away": [
+        "Mountaineers Squad Player 1",
+        "Mountaineers Squad Player 2",
+        "Mountaineers Squad Player 3",
+        "Mountaineers Squad Player 4",
+        "Mountaineers Squad Player 5",
+        "Mountaineers Squad Player 6",
+        "Mountaineers Squad Player 7",
+        "Mountaineers Squad Player 8",
+        "Mountaineers Squad Player 9",
+        "Mountaineers Squad Player 10",
+        "Mountaineers Squad Player 11"
       ]
     }
   },
