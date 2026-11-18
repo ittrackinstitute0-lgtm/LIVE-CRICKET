@@ -222,10 +222,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Chhattisgarh",
-      "short": "CHH",
-      "flag": "🏏",
-      "score": "228/4",
+      "name": "New Zealand",
+      "short": "NEW",
+      "flag": "🇳🇿",
+      "score": "52/3 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -233,23 +233,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Odisha",
-      "short": "ODI",
-      "flag": "🏏",
-      "score": "177/8 *",
+      "name": "India",
+      "short": "IND",
+      "flag": "🇮🇳",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Chhattisgarh",
-    "currentBatting": "Odisha",
-    "situation": "Live in progress: Chhattisgarh vs Odisha",
+    "battingFirst": "New Zealand",
+    "currentBatting": "New Zealand",
+    "situation": "Live in progress: New Zealand vs India",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Chhattisgarh vs Odisha underway",
+    "toss": "New Zealand vs India underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -287,35 +287,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Chhattisgarh 228/4  v Odisha 177/8 *"
+        "desc": "Match update: New Zealand 52/3 * v India"
       }
     ],
     "playingXI": {
       "home": [
-        "Chhattisgarh Squad Player 1",
-        "Chhattisgarh Squad Player 2",
-        "Chhattisgarh Squad Player 3",
-        "Chhattisgarh Squad Player 4",
-        "Chhattisgarh Squad Player 5",
-        "Chhattisgarh Squad Player 6",
-        "Chhattisgarh Squad Player 7",
-        "Chhattisgarh Squad Player 8",
-        "Chhattisgarh Squad Player 9",
-        "Chhattisgarh Squad Player 10",
-        "Chhattisgarh Squad Player 11"
+        "New Zealand Squad Player 1",
+        "New Zealand Squad Player 2",
+        "New Zealand Squad Player 3",
+        "New Zealand Squad Player 4",
+        "New Zealand Squad Player 5",
+        "New Zealand Squad Player 6",
+        "New Zealand Squad Player 7",
+        "New Zealand Squad Player 8",
+        "New Zealand Squad Player 9",
+        "New Zealand Squad Player 10",
+        "New Zealand Squad Player 11"
       ],
       "away": [
-        "Odisha Squad Player 1",
-        "Odisha Squad Player 2",
-        "Odisha Squad Player 3",
-        "Odisha Squad Player 4",
-        "Odisha Squad Player 5",
-        "Odisha Squad Player 6",
-        "Odisha Squad Player 7",
-        "Odisha Squad Player 8",
-        "Odisha Squad Player 9",
-        "Odisha Squad Player 10",
-        "Odisha Squad Player 11"
+        "India Squad Player 1",
+        "India Squad Player 2",
+        "India Squad Player 3",
+        "India Squad Player 4",
+        "India Squad Player 5",
+        "India Squad Player 6",
+        "India Squad Player 7",
+        "India Squad Player 8",
+        "India Squad Player 9",
+        "India Squad Player 10",
+        "India Squad Player 11"
       ]
     }
   },
@@ -323,13 +323,13 @@ const MATCHES_DATA = [
     "id": "live_4",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "live",
+    "status": "upcoming",
     "featured": false,
     "teamHome": {
-      "name": "Services",
-      "short": "SER",
+      "name": "Kurunegala Youth Cricket Club",
+      "short": "KUR",
       "flag": "🏏",
-      "score": "184/9",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -337,23 +337,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Arunachal Pradesh",
-      "short": "ARU",
+      "name": "Burgher Recreation Club",
+      "short": "BUR",
       "flag": "🏏",
-      "score": "131/6 *",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Services",
-    "currentBatting": "Arunachal Pradesh",
-    "situation": "Live in progress: Services vs Arunachal Pradesh",
+    "battingFirst": "Kurunegala Youth Cricket Club",
+    "currentBatting": "Burgher Recreation Club",
+    "situation": "Live in progress: Kurunegala Youth Cricket Club vs Burgher Recreation Club",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Services vs Arunachal Pradesh underway",
+    "toss": "Kurunegala Youth Cricket Club vs Burgher Recreation Club underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -391,35 +391,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Services 184/9  v Arunachal Pradesh 131/6 *"
+        "desc": "Match update: Kurunegala Youth Cricket Club v Burgher Recreation Club"
       }
     ],
     "playingXI": {
       "home": [
-        "Services Squad Player 1",
-        "Services Squad Player 2",
-        "Services Squad Player 3",
-        "Services Squad Player 4",
-        "Services Squad Player 5",
-        "Services Squad Player 6",
-        "Services Squad Player 7",
-        "Services Squad Player 8",
-        "Services Squad Player 9",
-        "Services Squad Player 10",
-        "Services Squad Player 11"
+        "Kurunegala Youth Cricket Club Squad Player 1",
+        "Kurunegala Youth Cricket Club Squad Player 2",
+        "Kurunegala Youth Cricket Club Squad Player 3",
+        "Kurunegala Youth Cricket Club Squad Player 4",
+        "Kurunegala Youth Cricket Club Squad Player 5",
+        "Kurunegala Youth Cricket Club Squad Player 6",
+        "Kurunegala Youth Cricket Club Squad Player 7",
+        "Kurunegala Youth Cricket Club Squad Player 8",
+        "Kurunegala Youth Cricket Club Squad Player 9",
+        "Kurunegala Youth Cricket Club Squad Player 10",
+        "Kurunegala Youth Cricket Club Squad Player 11"
       ],
       "away": [
-        "Arunachal Pradesh Squad Player 1",
-        "Arunachal Pradesh Squad Player 2",
-        "Arunachal Pradesh Squad Player 3",
-        "Arunachal Pradesh Squad Player 4",
-        "Arunachal Pradesh Squad Player 5",
-        "Arunachal Pradesh Squad Player 6",
-        "Arunachal Pradesh Squad Player 7",
-        "Arunachal Pradesh Squad Player 8",
-        "Arunachal Pradesh Squad Player 9",
-        "Arunachal Pradesh Squad Player 10",
-        "Arunachal Pradesh Squad Player 11"
+        "Burgher Recreation Club Squad Player 1",
+        "Burgher Recreation Club Squad Player 2",
+        "Burgher Recreation Club Squad Player 3",
+        "Burgher Recreation Club Squad Player 4",
+        "Burgher Recreation Club Squad Player 5",
+        "Burgher Recreation Club Squad Player 6",
+        "Burgher Recreation Club Squad Player 7",
+        "Burgher Recreation Club Squad Player 8",
+        "Burgher Recreation Club Squad Player 9",
+        "Burgher Recreation Club Squad Player 10",
+        "Burgher Recreation Club Squad Player 11"
       ]
     }
   },
