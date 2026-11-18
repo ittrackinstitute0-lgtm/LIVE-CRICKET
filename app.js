@@ -121,7 +121,7 @@ const MATCHES_DATA = [
       "name": "Pakistan",
       "short": "PAK",
       "flag": "🇵🇰",
-      "score": "121/3 *",
+      "score": "166/4 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan 121/3 * v Sri Lanka 98/10 "
+        "desc": "Match update: Pakistan 166/4 * v Sri Lanka 98/10 "
       }
     ],
     "playingXI": {
@@ -222,10 +222,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Mashonaland Eagles",
-      "short": "MAS",
+      "name": "Chhattisgarh",
+      "short": "CHH",
       "flag": "🏏",
-      "score": "69/10",
+      "score": "228/4",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -233,23 +233,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Mountaineers",
-      "short": "MOU",
+      "name": "Odisha",
+      "short": "ODI",
       "flag": "🏏",
-      "score": "73/2 *",
+      "score": "126/3 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Mashonaland Eagles",
-    "currentBatting": "Mountaineers",
-    "situation": "Live in progress: Mashonaland Eagles vs Mountaineers",
+    "battingFirst": "Chhattisgarh",
+    "currentBatting": "Odisha",
+    "situation": "Live in progress: Chhattisgarh vs Odisha",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Mashonaland Eagles vs Mountaineers underway",
+    "toss": "Chhattisgarh vs Odisha underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -287,35 +287,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Mashonaland Eagles 69/10  v Mountaineers 73/2 *"
+        "desc": "Match update: Chhattisgarh 228/4  v Odisha 126/3 *"
       }
     ],
     "playingXI": {
       "home": [
-        "Mashonaland Eagles Squad Player 1",
-        "Mashonaland Eagles Squad Player 2",
-        "Mashonaland Eagles Squad Player 3",
-        "Mashonaland Eagles Squad Player 4",
-        "Mashonaland Eagles Squad Player 5",
-        "Mashonaland Eagles Squad Player 6",
-        "Mashonaland Eagles Squad Player 7",
-        "Mashonaland Eagles Squad Player 8",
-        "Mashonaland Eagles Squad Player 9",
-        "Mashonaland Eagles Squad Player 10",
-        "Mashonaland Eagles Squad Player 11"
+        "Chhattisgarh Squad Player 1",
+        "Chhattisgarh Squad Player 2",
+        "Chhattisgarh Squad Player 3",
+        "Chhattisgarh Squad Player 4",
+        "Chhattisgarh Squad Player 5",
+        "Chhattisgarh Squad Player 6",
+        "Chhattisgarh Squad Player 7",
+        "Chhattisgarh Squad Player 8",
+        "Chhattisgarh Squad Player 9",
+        "Chhattisgarh Squad Player 10",
+        "Chhattisgarh Squad Player 11"
       ],
       "away": [
-        "Mountaineers Squad Player 1",
-        "Mountaineers Squad Player 2",
-        "Mountaineers Squad Player 3",
-        "Mountaineers Squad Player 4",
-        "Mountaineers Squad Player 5",
-        "Mountaineers Squad Player 6",
-        "Mountaineers Squad Player 7",
-        "Mountaineers Squad Player 8",
-        "Mountaineers Squad Player 9",
-        "Mountaineers Squad Player 10",
-        "Mountaineers Squad Player 11"
+        "Odisha Squad Player 1",
+        "Odisha Squad Player 2",
+        "Odisha Squad Player 3",
+        "Odisha Squad Player 4",
+        "Odisha Squad Player 5",
+        "Odisha Squad Player 6",
+        "Odisha Squad Player 7",
+        "Odisha Squad Player 8",
+        "Odisha Squad Player 9",
+        "Odisha Squad Player 10",
+        "Odisha Squad Player 11"
       ]
     }
   },
@@ -326,10 +326,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Royal Desert Champions",
-      "short": "ROY",
+      "name": "Services",
+      "short": "SER",
       "flag": "🏏",
-      "score": "131/1",
+      "score": "184/9",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -337,23 +337,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "UAE Bulls",
-      "short": "UAE",
+      "name": "Arunachal Pradesh",
+      "short": "ARU",
       "flag": "🏏",
-      "score": "137/4 *",
+      "score": "131/6 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Royal Desert Champions",
-    "currentBatting": "UAE Bulls",
-    "situation": "Live in progress: Royal Desert Champions vs UAE Bulls",
+    "battingFirst": "Services",
+    "currentBatting": "Arunachal Pradesh",
+    "situation": "Live in progress: Services vs Arunachal Pradesh",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Royal Desert Champions vs UAE Bulls underway",
+    "toss": "Services vs Arunachal Pradesh underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -391,35 +391,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Royal Desert Champions 131/1  v UAE Bulls 137/4 *"
+        "desc": "Match update: Services 184/9  v Arunachal Pradesh 131/6 *"
       }
     ],
     "playingXI": {
       "home": [
-        "Royal Desert Champions Squad Player 1",
-        "Royal Desert Champions Squad Player 2",
-        "Royal Desert Champions Squad Player 3",
-        "Royal Desert Champions Squad Player 4",
-        "Royal Desert Champions Squad Player 5",
-        "Royal Desert Champions Squad Player 6",
-        "Royal Desert Champions Squad Player 7",
-        "Royal Desert Champions Squad Player 8",
-        "Royal Desert Champions Squad Player 9",
-        "Royal Desert Champions Squad Player 10",
-        "Royal Desert Champions Squad Player 11"
+        "Services Squad Player 1",
+        "Services Squad Player 2",
+        "Services Squad Player 3",
+        "Services Squad Player 4",
+        "Services Squad Player 5",
+        "Services Squad Player 6",
+        "Services Squad Player 7",
+        "Services Squad Player 8",
+        "Services Squad Player 9",
+        "Services Squad Player 10",
+        "Services Squad Player 11"
       ],
       "away": [
-        "UAE Bulls Squad Player 1",
-        "UAE Bulls Squad Player 2",
-        "UAE Bulls Squad Player 3",
-        "UAE Bulls Squad Player 4",
-        "UAE Bulls Squad Player 5",
-        "UAE Bulls Squad Player 6",
-        "UAE Bulls Squad Player 7",
-        "UAE Bulls Squad Player 8",
-        "UAE Bulls Squad Player 9",
-        "UAE Bulls Squad Player 10",
-        "UAE Bulls Squad Player 11"
+        "Arunachal Pradesh Squad Player 1",
+        "Arunachal Pradesh Squad Player 2",
+        "Arunachal Pradesh Squad Player 3",
+        "Arunachal Pradesh Squad Player 4",
+        "Arunachal Pradesh Squad Player 5",
+        "Arunachal Pradesh Squad Player 6",
+        "Arunachal Pradesh Squad Player 7",
+        "Arunachal Pradesh Squad Player 8",
+        "Arunachal Pradesh Squad Player 9",
+        "Arunachal Pradesh Squad Player 10",
+        "Arunachal Pradesh Squad Player 11"
       ]
     }
   },
