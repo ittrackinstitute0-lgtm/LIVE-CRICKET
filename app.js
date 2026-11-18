@@ -10,14 +10,14 @@ const MATCHES_DATA = [
   {
     "id": "live_1",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
+    "format": "Test",
     "status": "live",
     "featured": true,
     "teamHome": {
       "name": "South Africa",
       "short": "SOU",
       "flag": "🇿🇦",
-      "score": "386/7 *",
+      "score": "557/10",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Bangladesh",
       "short": "BAN",
       "flag": "🇧🇩",
-      "score": "400/10",
+      "score": "400/10 &  100/5 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -36,7 +36,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "South Africa",
-    "currentBatting": "South Africa",
+    "currentBatting": "Bangladesh",
     "situation": "Live in progress: South Africa vs Bangladesh",
     "crr": "4.25",
     "rrr": "5.10",
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa 386/7 * v Bangladesh 400/10 "
+        "desc": "Match update: South Africa 557/10  v Bangladesh 400/10 &  100/5 *"
       }
     ],
     "playingXI": {
@@ -114,14 +114,14 @@ const MATCHES_DATA = [
   {
     "id": "live_2",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
+    "format": "Test",
     "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Pakistan",
       "short": "PAK",
       "flag": "🇵🇰",
-      "score": "166/4 *",
+      "score": "325/10",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Sri Lanka",
       "short": "SRI",
       "flag": "🇱🇰",
-      "score": "98/10",
+      "score": "98/10 &  74/3 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -140,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Pakistan",
-    "currentBatting": "Pakistan",
+    "currentBatting": "Sri Lanka",
     "situation": "Live in progress: Pakistan vs Sri Lanka",
     "crr": "4.25",
     "rrr": "5.10",
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan 166/4 * v Sri Lanka 98/10 "
+        "desc": "Match update: Pakistan 325/10  v Sri Lanka 98/10 &  74/3 *"
       }
     ],
     "playingXI": {
@@ -236,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Odisha",
       "short": "ODI",
       "flag": "🏏",
-      "score": "126/3 *",
+      "score": "177/8 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Chhattisgarh 228/4  v Odisha 126/3 *"
+        "desc": "Match update: Chhattisgarh 228/4  v Odisha 177/8 *"
       }
     ],
     "playingXI": {
