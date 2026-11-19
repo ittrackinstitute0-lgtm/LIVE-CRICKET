@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Bangladesh",
       "short": "BAN",
       "flag": "🇧🇩",
-      "score": "400/10 &  100/5 *",
+      "score": "100/5 &  400/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa 557/10  v Bangladesh 400/10 &  100/5 *"
+        "desc": "Match update: South Africa 557/10  v Bangladesh 100/5 &  400/10 *"
       }
     ],
     "playingXI": {
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Sri Lanka",
       "short": "SRI",
       "flag": "🇱🇰",
-      "score": "98/10 &  74/3 *",
+      "score": "125/4 &  98/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan 325/10  v Sri Lanka 98/10 &  74/3 *"
+        "desc": "Match update: Pakistan 325/10  v Sri Lanka 125/4 &  98/10 *"
       }
     ],
     "playingXI": {
@@ -225,7 +225,7 @@ const MATCHES_DATA = [
       "name": "New Zealand",
       "short": "NEW",
       "flag": "🇳🇿",
-      "score": "52/3 *",
+      "score": "243/5 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 52/3 * v India"
+        "desc": "Match update: New Zealand 243/5 * v India"
       }
     ],
     "playingXI": {
@@ -323,7 +323,7 @@ const MATCHES_DATA = [
     "id": "live_4",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "upcoming",
+    "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Kurunegala Youth Cricket Club",
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Burgher Recreation Club",
       "short": "BUR",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "49/1 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Kurunegala Youth Cricket Club v Burgher Recreation Club"
+        "desc": "Match update: Kurunegala Youth Cricket Club v Burgher Recreation Club 49/1 *"
       }
     ],
     "playingXI": {
