@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "South Africa",
       "short": "SOU",
       "flag": "🇿🇦",
-      "score": "557/10",
+      "score": "12/1 &  557/10 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Bangladesh",
       "short": "BAN",
       "flag": "🇧🇩",
-      "score": "100/5 &  400/10 *",
+      "score": "168/10 &  400/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -36,7 +36,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "South Africa",
-    "currentBatting": "Bangladesh",
+    "currentBatting": "South Africa",
     "situation": "Live in progress: South Africa vs Bangladesh",
     "crr": "4.25",
     "rrr": "5.10",
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa 557/10  v Bangladesh 100/5 &  400/10 *"
+        "desc": "Match update: South Africa 12/1 &  557/10 * v Bangladesh 168/10 &  400/10 "
       }
     ],
     "playingXI": {
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Sri Lanka",
       "short": "SRI",
       "flag": "🇱🇰",
-      "score": "125/4 &  98/10 *",
+      "score": "309/9 &  98/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan 325/10  v Sri Lanka 125/4 &  98/10 *"
+        "desc": "Match update: Pakistan 325/10  v Sri Lanka 309/9 &  98/10 *"
       }
     ],
     "playingXI": {
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Burgher Recreation Club",
       "short": "BUR",
       "flag": "🏏",
-      "score": "49/1 *",
+      "score": "256/5 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Kurunegala Youth Cricket Club v Burgher Recreation Club 49/1 *"
+        "desc": "Match update: Kurunegala Youth Cricket Club v Burgher Recreation Club 256/5 *"
       }
     ],
     "playingXI": {
