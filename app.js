@@ -8,11 +8,427 @@
 // ==========================================
 const MATCHES_DATA = [
   {
+    "id": "live_1",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": true,
+    "teamHome": {
+      "name": "New Zealand",
+      "short": "NEW",
+      "flag": "🇳🇿",
+      "score": "368/10",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "India",
+      "short": "IND",
+      "flag": "🇮🇳",
+      "score": "219/1 *",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "New Zealand",
+    "currentBatting": "India",
+    "situation": "Live in progress: New Zealand vs India",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "New Zealand vs India underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: New Zealand 368/10  v India 219/1 *"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "New Zealand Squad Player 1",
+        "New Zealand Squad Player 2",
+        "New Zealand Squad Player 3",
+        "New Zealand Squad Player 4",
+        "New Zealand Squad Player 5",
+        "New Zealand Squad Player 6",
+        "New Zealand Squad Player 7",
+        "New Zealand Squad Player 8",
+        "New Zealand Squad Player 9",
+        "New Zealand Squad Player 10",
+        "New Zealand Squad Player 11"
+      ],
+      "away": [
+        "India Squad Player 1",
+        "India Squad Player 2",
+        "India Squad Player 3",
+        "India Squad Player 4",
+        "India Squad Player 5",
+        "India Squad Player 6",
+        "India Squad Player 7",
+        "India Squad Player 8",
+        "India Squad Player 9",
+        "India Squad Player 10",
+        "India Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_2",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Kurunegala Youth Cricket Club",
+      "short": "KUR",
+      "flag": "🏏",
+      "score": "176/2 *",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Burgher Recreation Club",
+      "short": "BUR",
+      "flag": "🏏",
+      "score": "336/10",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Kurunegala Youth Cricket Club",
+    "currentBatting": "Kurunegala Youth Cricket Club",
+    "situation": "Live in progress: Kurunegala Youth Cricket Club vs Burgher Recreation Club",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Kurunegala Youth Cricket Club vs Burgher Recreation Club underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Kurunegala Youth Cricket Club 176/2 * v Burgher Recreation Club 336/10 "
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Kurunegala Youth Cricket Club Squad Player 1",
+        "Kurunegala Youth Cricket Club Squad Player 2",
+        "Kurunegala Youth Cricket Club Squad Player 3",
+        "Kurunegala Youth Cricket Club Squad Player 4",
+        "Kurunegala Youth Cricket Club Squad Player 5",
+        "Kurunegala Youth Cricket Club Squad Player 6",
+        "Kurunegala Youth Cricket Club Squad Player 7",
+        "Kurunegala Youth Cricket Club Squad Player 8",
+        "Kurunegala Youth Cricket Club Squad Player 9",
+        "Kurunegala Youth Cricket Club Squad Player 10",
+        "Kurunegala Youth Cricket Club Squad Player 11"
+      ],
+      "away": [
+        "Burgher Recreation Club Squad Player 1",
+        "Burgher Recreation Club Squad Player 2",
+        "Burgher Recreation Club Squad Player 3",
+        "Burgher Recreation Club Squad Player 4",
+        "Burgher Recreation Club Squad Player 5",
+        "Burgher Recreation Club Squad Player 6",
+        "Burgher Recreation Club Squad Player 7",
+        "Burgher Recreation Club Squad Player 8",
+        "Burgher Recreation Club Squad Player 9",
+        "Burgher Recreation Club Squad Player 10",
+        "Burgher Recreation Club Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_3",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Nugegoda Sports Welfare Club",
+      "short": "NUG",
+      "flag": "🏏",
+      "score": "618/7",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Nondescripts Cricket Club",
+      "short": "NON",
+      "flag": "🏏",
+      "score": "46/1 *",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Nugegoda Sports Welfare Club",
+    "currentBatting": "Nondescripts Cricket Club",
+    "situation": "Live in progress: Nugegoda Sports Welfare Club vs Nondescripts Cricket Club",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Nugegoda Sports Welfare Club vs Nondescripts Cricket Club underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 46/1 *"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Nugegoda Sports Welfare Club Squad Player 1",
+        "Nugegoda Sports Welfare Club Squad Player 2",
+        "Nugegoda Sports Welfare Club Squad Player 3",
+        "Nugegoda Sports Welfare Club Squad Player 4",
+        "Nugegoda Sports Welfare Club Squad Player 5",
+        "Nugegoda Sports Welfare Club Squad Player 6",
+        "Nugegoda Sports Welfare Club Squad Player 7",
+        "Nugegoda Sports Welfare Club Squad Player 8",
+        "Nugegoda Sports Welfare Club Squad Player 9",
+        "Nugegoda Sports Welfare Club Squad Player 10",
+        "Nugegoda Sports Welfare Club Squad Player 11"
+      ],
+      "away": [
+        "Nondescripts Cricket Club Squad Player 1",
+        "Nondescripts Cricket Club Squad Player 2",
+        "Nondescripts Cricket Club Squad Player 3",
+        "Nondescripts Cricket Club Squad Player 4",
+        "Nondescripts Cricket Club Squad Player 5",
+        "Nondescripts Cricket Club Squad Player 6",
+        "Nondescripts Cricket Club Squad Player 7",
+        "Nondescripts Cricket Club Squad Player 8",
+        "Nondescripts Cricket Club Squad Player 9",
+        "Nondescripts Cricket Club Squad Player 10",
+        "Nondescripts Cricket Club Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Police Sports Club",
+      "short": "POL",
+      "flag": "🏏",
+      "score": "612/6",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Badureliya Sports Club",
+      "short": "BAD",
+      "flag": "🏏",
+      "score": "23/3 *",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Police Sports Club",
+    "currentBatting": "Badureliya Sports Club",
+    "situation": "Live in progress: Police Sports Club vs Badureliya Sports Club",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Police Sports Club vs Badureliya Sports Club underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 23/3 *"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Police Sports Club Squad Player 1",
+        "Police Sports Club Squad Player 2",
+        "Police Sports Club Squad Player 3",
+        "Police Sports Club Squad Player 4",
+        "Police Sports Club Squad Player 5",
+        "Police Sports Club Squad Player 6",
+        "Police Sports Club Squad Player 7",
+        "Police Sports Club Squad Player 8",
+        "Police Sports Club Squad Player 9",
+        "Police Sports Club Squad Player 10",
+        "Police Sports Club Squad Player 11"
+      ],
+      "away": [
+        "Badureliya Sports Club Squad Player 1",
+        "Badureliya Sports Club Squad Player 2",
+        "Badureliya Sports Club Squad Player 3",
+        "Badureliya Sports Club Squad Player 4",
+        "Badureliya Sports Club Squad Player 5",
+        "Badureliya Sports Club Squad Player 6",
+        "Badureliya Sports Club Squad Player 7",
+        "Badureliya Sports Club Squad Player 8",
+        "Badureliya Sports Club Squad Player 9",
+        "Badureliya Sports Club Squad Player 10",
+        "Badureliya Sports Club Squad Player 11"
+      ]
+    }
+  },
+  {
     "id": "m_bgt_1",
     "tournament": "Border-Gavaskar Trophy - 1st Test (Perth Stadium)",
     "format": "Test",
     "status": "recent",
-    "featured": true,
+    "featured": false,
     "teamHome": {
       "name": "India",
       "short": "IND",
