@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "South Africa",
       "short": "SOU",
       "flag": "🇿🇦",
-      "score": "12/1 &  557/10 *",
+      "score": "557/10 &  12/1 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa 12/1 &  557/10 * v Bangladesh 168/10 &  400/10 "
+        "desc": "Match update: South Africa 557/10 &  12/1 * v Bangladesh 168/10 &  400/10 "
       }
     ],
     "playingXI": {
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Sri Lanka",
       "short": "SRI",
       "flag": "🇱🇰",
-      "score": "309/9 &  98/10 *",
+      "score": "98/10 &  309/9 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan 325/10  v Sri Lanka 309/9 &  98/10 *"
+        "desc": "Match update: Pakistan 325/10  v Sri Lanka 98/10 &  309/9 *"
       }
     ],
     "playingXI": {
