@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "India",
       "short": "IND",
       "flag": "🇮🇳",
-      "score": "485/3 *",
+      "score": "486/4 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 368/10  v India 485/3 *"
+        "desc": "Match update: New Zealand 368/10  v India 486/4 *"
       }
     ],
     "playingXI": {
@@ -114,14 +114,14 @@ const MATCHES_DATA = [
   {
     "id": "live_2",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
+    "format": "Test",
     "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Kurunegala Youth Cricket Club",
       "short": "KUR",
       "flag": "🏏",
-      "score": "219/2 *",
+      "score": "368/10",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Burgher Recreation Club",
       "short": "BUR",
       "flag": "🏏",
-      "score": "336/10",
+      "score": "86/3 &  336/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -140,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Kurunegala Youth Cricket Club",
-    "currentBatting": "Kurunegala Youth Cricket Club",
+    "currentBatting": "Burgher Recreation Club",
     "situation": "Live in progress: Kurunegala Youth Cricket Club vs Burgher Recreation Club",
     "crr": "4.25",
     "rrr": "5.10",
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Kurunegala Youth Cricket Club 219/2 * v Burgher Recreation Club 336/10 "
+        "desc": "Match update: Kurunegala Youth Cricket Club 368/10  v Burgher Recreation Club 86/3 &  336/10 *"
       }
     ],
     "playingXI": {
@@ -236,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Nondescripts Cricket Club",
       "short": "NON",
       "flag": "🏏",
-      "score": "81/1 *",
+      "score": "287/9 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 81/1 *"
+        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 287/9 *"
       }
     ],
     "playingXI": {
@@ -322,7 +322,7 @@ const MATCHES_DATA = [
   {
     "id": "live_4",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
+    "format": "Test",
     "status": "live",
     "featured": false,
     "teamHome": {
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Badureliya Sports Club",
       "short": "BAD",
       "flag": "🏏",
-      "score": "54/5 *",
+      "score": "129/10 &  168/5 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 54/5 *"
+        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 129/10 &  168/5 *"
       }
     ],
     "playingXI": {
