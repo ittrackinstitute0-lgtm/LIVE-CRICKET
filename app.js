@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "India",
       "short": "IND",
       "flag": "🇮🇳",
-      "score": "486/4 *",
+      "score": "537/4 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 368/10  v India 486/4 *"
+        "desc": "Match update: New Zealand 368/10  v India 537/4 *"
       }
     ],
     "playingXI": {
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Burgher Recreation Club",
       "short": "BUR",
       "flag": "🏏",
-      "score": "86/3 &  336/10 *",
+      "score": "336/10 &  86/3 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Kurunegala Youth Cricket Club 368/10  v Burgher Recreation Club 86/3 &  336/10 *"
+        "desc": "Match update: Kurunegala Youth Cricket Club 368/10  v Burgher Recreation Club 336/10 &  86/3 *"
       }
     ],
     "playingXI": {
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Badureliya Sports Club",
       "short": "BAD",
       "flag": "🏏",
-      "score": "129/10 &  168/5 *",
+      "score": "168/5 &  129/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 129/10 &  168/5 *"
+        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 168/5 &  129/10 *"
       }
     ],
     "playingXI": {
