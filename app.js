@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "India",
       "short": "IND",
       "flag": "🇮🇳",
-      "score": "219/1 *",
+      "score": "485/3 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 368/10  v India 219/1 *"
+        "desc": "Match update: New Zealand 368/10  v India 485/3 *"
       }
     ],
     "playingXI": {
@@ -121,7 +121,7 @@ const MATCHES_DATA = [
       "name": "Kurunegala Youth Cricket Club",
       "short": "KUR",
       "flag": "🏏",
-      "score": "176/2 *",
+      "score": "219/2 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Kurunegala Youth Cricket Club 176/2 * v Burgher Recreation Club 336/10 "
+        "desc": "Match update: Kurunegala Youth Cricket Club 219/2 * v Burgher Recreation Club 336/10 "
       }
     ],
     "playingXI": {
@@ -236,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Nondescripts Cricket Club",
       "short": "NON",
       "flag": "🏏",
-      "score": "46/1 *",
+      "score": "81/1 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 46/1 *"
+        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 81/1 *"
       }
     ],
     "playingXI": {
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Badureliya Sports Club",
       "short": "BAD",
       "flag": "🏏",
-      "score": "23/3 *",
+      "score": "54/5 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 23/3 *"
+        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 54/5 *"
       }
     ],
     "playingXI": {
