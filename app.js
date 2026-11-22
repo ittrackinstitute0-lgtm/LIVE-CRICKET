@@ -10,14 +10,14 @@ const MATCHES_DATA = [
   {
     "id": "live_1",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
+    "format": "Test",
     "status": "live",
     "featured": true,
     "teamHome": {
       "name": "New Zealand",
       "short": "NEW",
       "flag": "🇳🇿",
-      "score": "368/10",
+      "score": "368/10 &  90/2 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "India",
       "short": "IND",
       "flag": "🇮🇳",
-      "score": "537/4 *",
+      "score": "720/9",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -36,7 +36,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "New Zealand",
-    "currentBatting": "India",
+    "currentBatting": "New Zealand",
     "situation": "Live in progress: New Zealand vs India",
     "crr": "4.25",
     "rrr": "5.10",
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 368/10  v India 537/4 *"
+        "desc": "Match update: New Zealand 368/10 &  90/2 * v India 720/9 "
       }
     ],
     "playingXI": {
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Burgher Recreation Club",
       "short": "BUR",
       "flag": "🏏",
-      "score": "336/10 &  86/3 *",
+      "score": "336/10 &  99/3 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Kurunegala Youth Cricket Club 368/10  v Burgher Recreation Club 336/10 &  86/3 *"
+        "desc": "Match update: Kurunegala Youth Cricket Club 368/10  v Burgher Recreation Club 336/10 &  99/3 *"
       }
     ],
     "playingXI": {
@@ -218,7 +218,7 @@ const MATCHES_DATA = [
   {
     "id": "live_3",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
+    "format": "Test",
     "status": "live",
     "featured": false,
     "teamHome": {
@@ -236,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Nondescripts Cricket Club",
       "short": "NON",
       "flag": "🏏",
-      "score": "287/9 *",
+      "score": "15 &  287/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 287/9 *"
+        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 15 &  287/10 *"
       }
     ],
     "playingXI": {
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Badureliya Sports Club",
       "short": "BAD",
       "flag": "🏏",
-      "score": "168/5 &  129/10 *",
+      "score": "129/10 &  180/6 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 168/5 &  129/10 *"
+        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 129/10 &  180/6 *"
       }
     ],
     "playingXI": {
