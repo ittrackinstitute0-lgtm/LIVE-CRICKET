@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "New Zealand",
       "short": "NEW",
       "flag": "🇳🇿",
-      "score": "119/2 &  368/10 *",
+      "score": "139/3 &  368/10 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 119/2 &  368/10 * v India 720/9 "
+        "desc": "Match update: New Zealand 139/3 &  368/10 * v India 720/9 "
       }
     ],
     "playingXI": {
@@ -114,14 +114,14 @@ const MATCHES_DATA = [
   {
     "id": "live_2",
     "tournament": "International Tour & Series 2026",
-    "format": "Test",
+    "format": "ODI",
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Kurunegala Youth Cricket Club",
-      "short": "KUR",
-      "flag": "🏏",
-      "score": "368/10 &  90/4 *",
+      "name": "New South Wales",
+      "short": "NEW",
+      "flag": "🇦🇺",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -129,23 +129,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Burgher Recreation Club",
-      "short": "BUR",
-      "flag": "🏏",
-      "score": "311/6 &  336/10",
+      "name": "Queensland",
+      "short": "QUE",
+      "flag": "🇦🇺",
+      "score": "249/7 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Kurunegala Youth Cricket Club",
-    "currentBatting": "Kurunegala Youth Cricket Club",
-    "situation": "Live in progress: Kurunegala Youth Cricket Club vs Burgher Recreation Club",
+    "battingFirst": "New South Wales",
+    "currentBatting": "Queensland",
+    "situation": "Live in progress: New South Wales vs Queensland",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Kurunegala Youth Cricket Club vs Burgher Recreation Club underway",
+    "toss": "New South Wales vs Queensland underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -183,49 +183,49 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Kurunegala Youth Cricket Club 368/10 &  90/4 * v Burgher Recreation Club 311/6 &  336/10 "
+        "desc": "Match update: New South Wales v Queensland 249/7 *"
       }
     ],
     "playingXI": {
       "home": [
-        "Kurunegala Youth Cricket Club Squad Player 1",
-        "Kurunegala Youth Cricket Club Squad Player 2",
-        "Kurunegala Youth Cricket Club Squad Player 3",
-        "Kurunegala Youth Cricket Club Squad Player 4",
-        "Kurunegala Youth Cricket Club Squad Player 5",
-        "Kurunegala Youth Cricket Club Squad Player 6",
-        "Kurunegala Youth Cricket Club Squad Player 7",
-        "Kurunegala Youth Cricket Club Squad Player 8",
-        "Kurunegala Youth Cricket Club Squad Player 9",
-        "Kurunegala Youth Cricket Club Squad Player 10",
-        "Kurunegala Youth Cricket Club Squad Player 11"
+        "New South Wales Squad Player 1",
+        "New South Wales Squad Player 2",
+        "New South Wales Squad Player 3",
+        "New South Wales Squad Player 4",
+        "New South Wales Squad Player 5",
+        "New South Wales Squad Player 6",
+        "New South Wales Squad Player 7",
+        "New South Wales Squad Player 8",
+        "New South Wales Squad Player 9",
+        "New South Wales Squad Player 10",
+        "New South Wales Squad Player 11"
       ],
       "away": [
-        "Burgher Recreation Club Squad Player 1",
-        "Burgher Recreation Club Squad Player 2",
-        "Burgher Recreation Club Squad Player 3",
-        "Burgher Recreation Club Squad Player 4",
-        "Burgher Recreation Club Squad Player 5",
-        "Burgher Recreation Club Squad Player 6",
-        "Burgher Recreation Club Squad Player 7",
-        "Burgher Recreation Club Squad Player 8",
-        "Burgher Recreation Club Squad Player 9",
-        "Burgher Recreation Club Squad Player 10",
-        "Burgher Recreation Club Squad Player 11"
+        "Queensland Squad Player 1",
+        "Queensland Squad Player 2",
+        "Queensland Squad Player 3",
+        "Queensland Squad Player 4",
+        "Queensland Squad Player 5",
+        "Queensland Squad Player 6",
+        "Queensland Squad Player 7",
+        "Queensland Squad Player 8",
+        "Queensland Squad Player 9",
+        "Queensland Squad Player 10",
+        "Queensland Squad Player 11"
       ]
     }
   },
   {
     "id": "live_3",
     "tournament": "International Tour & Series 2026",
-    "format": "Test",
-    "status": "live",
+    "format": "ODI",
+    "status": "upcoming",
     "featured": false,
     "teamHome": {
-      "name": "Nugegoda Sports Welfare Club",
-      "short": "NUG",
-      "flag": "🏏",
-      "score": "618/7",
+      "name": "Western Australia",
+      "short": "WES",
+      "flag": "🇦🇺",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -233,23 +233,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Nondescripts Cricket Club",
-      "short": "NON",
-      "flag": "🏏",
-      "score": "198/10 &  287/10 *",
+      "name": "Tasmania",
+      "short": "TAS",
+      "flag": "🇦🇺",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Nugegoda Sports Welfare Club",
-    "currentBatting": "Nondescripts Cricket Club",
-    "situation": "Live in progress: Nugegoda Sports Welfare Club vs Nondescripts Cricket Club",
+    "battingFirst": "Western Australia",
+    "currentBatting": "Tasmania",
+    "situation": "Live in progress: Western Australia vs Tasmania",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Nugegoda Sports Welfare Club vs Nondescripts Cricket Club underway",
+    "toss": "Western Australia vs Tasmania underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -287,49 +287,49 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 198/10 &  287/10 *"
+        "desc": "Match update: Western Australia v Tasmania"
       }
     ],
     "playingXI": {
       "home": [
-        "Nugegoda Sports Welfare Club Squad Player 1",
-        "Nugegoda Sports Welfare Club Squad Player 2",
-        "Nugegoda Sports Welfare Club Squad Player 3",
-        "Nugegoda Sports Welfare Club Squad Player 4",
-        "Nugegoda Sports Welfare Club Squad Player 5",
-        "Nugegoda Sports Welfare Club Squad Player 6",
-        "Nugegoda Sports Welfare Club Squad Player 7",
-        "Nugegoda Sports Welfare Club Squad Player 8",
-        "Nugegoda Sports Welfare Club Squad Player 9",
-        "Nugegoda Sports Welfare Club Squad Player 10",
-        "Nugegoda Sports Welfare Club Squad Player 11"
+        "Western Australia Squad Player 1",
+        "Western Australia Squad Player 2",
+        "Western Australia Squad Player 3",
+        "Western Australia Squad Player 4",
+        "Western Australia Squad Player 5",
+        "Western Australia Squad Player 6",
+        "Western Australia Squad Player 7",
+        "Western Australia Squad Player 8",
+        "Western Australia Squad Player 9",
+        "Western Australia Squad Player 10",
+        "Western Australia Squad Player 11"
       ],
       "away": [
-        "Nondescripts Cricket Club Squad Player 1",
-        "Nondescripts Cricket Club Squad Player 2",
-        "Nondescripts Cricket Club Squad Player 3",
-        "Nondescripts Cricket Club Squad Player 4",
-        "Nondescripts Cricket Club Squad Player 5",
-        "Nondescripts Cricket Club Squad Player 6",
-        "Nondescripts Cricket Club Squad Player 7",
-        "Nondescripts Cricket Club Squad Player 8",
-        "Nondescripts Cricket Club Squad Player 9",
-        "Nondescripts Cricket Club Squad Player 10",
-        "Nondescripts Cricket Club Squad Player 11"
+        "Tasmania Squad Player 1",
+        "Tasmania Squad Player 2",
+        "Tasmania Squad Player 3",
+        "Tasmania Squad Player 4",
+        "Tasmania Squad Player 5",
+        "Tasmania Squad Player 6",
+        "Tasmania Squad Player 7",
+        "Tasmania Squad Player 8",
+        "Tasmania Squad Player 9",
+        "Tasmania Squad Player 10",
+        "Tasmania Squad Player 11"
       ]
     }
   },
   {
     "id": "live_4",
     "tournament": "International Tour & Series 2026",
-    "format": "Test",
-    "status": "live",
+    "format": "T20I",
+    "status": "upcoming",
     "featured": false,
     "teamHome": {
-      "name": "Police Sports Club",
-      "short": "POL",
-      "flag": "🏏",
-      "score": "612/6",
+      "name": "Pakistan Women",
+      "short": "PAK",
+      "flag": "🇵🇰",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -337,23 +337,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Badureliya Sports Club",
-      "short": "BAD",
-      "flag": "🏏",
-      "score": "341/10 &  129/10 *",
+      "name": "Sri Lanka Women",
+      "short": "SRI",
+      "flag": "🇱🇰",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Police Sports Club",
-    "currentBatting": "Badureliya Sports Club",
-    "situation": "Live in progress: Police Sports Club vs Badureliya Sports Club",
+    "battingFirst": "Pakistan Women",
+    "currentBatting": "Sri Lanka Women",
+    "situation": "Live in progress: Pakistan Women vs Sri Lanka Women",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Police Sports Club vs Badureliya Sports Club underway",
+    "toss": "Pakistan Women vs Sri Lanka Women underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -391,35 +391,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 341/10 &  129/10 *"
+        "desc": "Match update: Pakistan Women v Sri Lanka Women"
       }
     ],
     "playingXI": {
       "home": [
-        "Police Sports Club Squad Player 1",
-        "Police Sports Club Squad Player 2",
-        "Police Sports Club Squad Player 3",
-        "Police Sports Club Squad Player 4",
-        "Police Sports Club Squad Player 5",
-        "Police Sports Club Squad Player 6",
-        "Police Sports Club Squad Player 7",
-        "Police Sports Club Squad Player 8",
-        "Police Sports Club Squad Player 9",
-        "Police Sports Club Squad Player 10",
-        "Police Sports Club Squad Player 11"
+        "Pakistan Women Squad Player 1",
+        "Pakistan Women Squad Player 2",
+        "Pakistan Women Squad Player 3",
+        "Pakistan Women Squad Player 4",
+        "Pakistan Women Squad Player 5",
+        "Pakistan Women Squad Player 6",
+        "Pakistan Women Squad Player 7",
+        "Pakistan Women Squad Player 8",
+        "Pakistan Women Squad Player 9",
+        "Pakistan Women Squad Player 10",
+        "Pakistan Women Squad Player 11"
       ],
       "away": [
-        "Badureliya Sports Club Squad Player 1",
-        "Badureliya Sports Club Squad Player 2",
-        "Badureliya Sports Club Squad Player 3",
-        "Badureliya Sports Club Squad Player 4",
-        "Badureliya Sports Club Squad Player 5",
-        "Badureliya Sports Club Squad Player 6",
-        "Badureliya Sports Club Squad Player 7",
-        "Badureliya Sports Club Squad Player 8",
-        "Badureliya Sports Club Squad Player 9",
-        "Badureliya Sports Club Squad Player 10",
-        "Badureliya Sports Club Squad Player 11"
+        "Sri Lanka Women Squad Player 1",
+        "Sri Lanka Women Squad Player 2",
+        "Sri Lanka Women Squad Player 3",
+        "Sri Lanka Women Squad Player 4",
+        "Sri Lanka Women Squad Player 5",
+        "Sri Lanka Women Squad Player 6",
+        "Sri Lanka Women Squad Player 7",
+        "Sri Lanka Women Squad Player 8",
+        "Sri Lanka Women Squad Player 9",
+        "Sri Lanka Women Squad Player 10",
+        "Sri Lanka Women Squad Player 11"
       ]
     }
   },
