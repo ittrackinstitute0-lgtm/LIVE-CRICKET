@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "New Zealand",
       "short": "NEW",
       "flag": "🇳🇿",
-      "score": "368/10 &  90/2 *",
+      "score": "119/2 &  368/10 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 368/10 &  90/2 * v India 720/9 "
+        "desc": "Match update: New Zealand 119/2 &  368/10 * v India 720/9 "
       }
     ],
     "playingXI": {
@@ -121,7 +121,7 @@ const MATCHES_DATA = [
       "name": "Kurunegala Youth Cricket Club",
       "short": "KUR",
       "flag": "🏏",
-      "score": "368/10",
+      "score": "368/10 &  90/4 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Burgher Recreation Club",
       "short": "BUR",
       "flag": "🏏",
-      "score": "336/10 &  99/3 *",
+      "score": "311/6 &  336/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -140,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Kurunegala Youth Cricket Club",
-    "currentBatting": "Burgher Recreation Club",
+    "currentBatting": "Kurunegala Youth Cricket Club",
     "situation": "Live in progress: Kurunegala Youth Cricket Club vs Burgher Recreation Club",
     "crr": "4.25",
     "rrr": "5.10",
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Kurunegala Youth Cricket Club 368/10  v Burgher Recreation Club 336/10 &  99/3 *"
+        "desc": "Match update: Kurunegala Youth Cricket Club 368/10 &  90/4 * v Burgher Recreation Club 311/6 &  336/10 "
       }
     ],
     "playingXI": {
@@ -236,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Nondescripts Cricket Club",
       "short": "NON",
       "flag": "🏏",
-      "score": "15 &  287/10 *",
+      "score": "198/10 &  287/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 15 &  287/10 *"
+        "desc": "Match update: Nugegoda Sports Welfare Club 618/7  v Nondescripts Cricket Club 198/10 &  287/10 *"
       }
     ],
     "playingXI": {
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Badureliya Sports Club",
       "short": "BAD",
       "flag": "🏏",
-      "score": "129/10 &  180/6 *",
+      "score": "341/10 &  129/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 129/10 &  180/6 *"
+        "desc": "Match update: Police Sports Club 612/6  v Badureliya Sports Club 341/10 &  129/10 *"
       }
     ],
     "playingXI": {
