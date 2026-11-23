@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "New Zealand",
       "short": "NEW",
       "flag": "🇳🇿",
-      "score": "139/3 &  368/10 *",
+      "score": "239/5 &  368/10 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 139/3 &  368/10 * v India 720/9 "
+        "desc": "Match update: New Zealand 239/5 &  368/10 * v India 720/9 "
       }
     ],
     "playingXI": {
@@ -121,7 +121,7 @@ const MATCHES_DATA = [
       "name": "New South Wales",
       "short": "NEW",
       "flag": "🇦🇺",
-      "score": "In Progress",
+      "score": "105/2 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Queensland",
       "short": "QUE",
       "flag": "🇦🇺",
-      "score": "249/7 *",
+      "score": "278/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -140,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "New South Wales",
-    "currentBatting": "Queensland",
+    "currentBatting": "New South Wales",
     "situation": "Live in progress: New South Wales vs Queensland",
     "crr": "4.25",
     "rrr": "5.10",
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New South Wales v Queensland 249/7 *"
+        "desc": "Match update: New South Wales 105/2 * v Queensland 278/10 "
       }
     ],
     "playingXI": {
@@ -219,7 +219,7 @@ const MATCHES_DATA = [
     "id": "live_3",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "upcoming",
+    "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Western Australia",
@@ -236,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Tasmania",
       "short": "TAS",
       "flag": "🇦🇺",
-      "score": "In Progress",
+      "score": "76/2 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Western Australia v Tasmania"
+        "desc": "Match update: Western Australia v Tasmania 76/2 *"
       }
     ],
     "playingXI": {
@@ -323,7 +323,7 @@ const MATCHES_DATA = [
     "id": "live_4",
     "tournament": "International Tour & Series 2026",
     "format": "T20I",
-    "status": "upcoming",
+    "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Pakistan Women",
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Sri Lanka Women",
       "short": "SRI",
       "flag": "🇱🇰",
-      "score": "In Progress",
+      "score": "43/1 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan Women v Sri Lanka Women"
+        "desc": "Match update: Pakistan Women v Sri Lanka Women 43/1 *"
       }
     ],
     "playingXI": {
