@@ -10,118 +10,14 @@ const MATCHES_DATA = [
   {
     "id": "live_1",
     "tournament": "International Tour & Series 2026",
-    "format": "Test",
-    "status": "live",
-    "featured": true,
-    "teamHome": {
-      "name": "New Zealand",
-      "short": "NEW",
-      "flag": "🇳🇿",
-      "score": "239/5 &  368/10 *",
-      "overs": "Live",
-      "runs": 150,
-      "wickets": 4,
-      "currentOver": 32,
-      "currentBall": 4
-    },
-    "teamAway": {
-      "name": "India",
-      "short": "IND",
-      "flag": "🇮🇳",
-      "score": "720/9",
-      "overs": "Live",
-      "runs": 140,
-      "wickets": 3,
-      "currentOver": 28,
-      "currentBall": 2
-    },
-    "battingFirst": "New Zealand",
-    "currentBatting": "New Zealand",
-    "situation": "Live in progress: New Zealand vs India",
-    "crr": "4.25",
-    "rrr": "5.10",
-    "venue": "Official International Stadium",
-    "toss": "New Zealand vs India underway",
-    "pitch": "International standard pitch with competitive bounce",
-    "weather": "25°C Good conditions",
-    "batter1": {
-      "name": "Key Batter",
-      "runs": 45,
-      "balls": 38,
-      "fours": 5,
-      "sixes": 1,
-      "sr": "118.4"
-    },
-    "batter2": {
-      "name": "Support Batter",
-      "runs": 22,
-      "balls": 19,
-      "fours": 2,
-      "sixes": 0,
-      "sr": "115.7"
-    },
-    "bowler": {
-      "name": "Lead Bowler",
-      "overs": "6.4",
-      "maidens": 1,
-      "runs": 28,
-      "wickets": 2,
-      "econ": "4.20"
-    },
-    "recentBalls": [
-      "1",
-      "4",
-      "0",
-      "1",
-      "W",
-      "2"
-    ],
-    "commentary": [
-      {
-        "over": "Live",
-        "desc": "Match update: New Zealand 239/5 &  368/10 * v India 720/9 "
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "New Zealand Squad Player 1",
-        "New Zealand Squad Player 2",
-        "New Zealand Squad Player 3",
-        "New Zealand Squad Player 4",
-        "New Zealand Squad Player 5",
-        "New Zealand Squad Player 6",
-        "New Zealand Squad Player 7",
-        "New Zealand Squad Player 8",
-        "New Zealand Squad Player 9",
-        "New Zealand Squad Player 10",
-        "New Zealand Squad Player 11"
-      ],
-      "away": [
-        "India Squad Player 1",
-        "India Squad Player 2",
-        "India Squad Player 3",
-        "India Squad Player 4",
-        "India Squad Player 5",
-        "India Squad Player 6",
-        "India Squad Player 7",
-        "India Squad Player 8",
-        "India Squad Player 9",
-        "India Squad Player 10",
-        "India Squad Player 11"
-      ]
-    }
-  },
-  {
-    "id": "live_2",
-    "tournament": "International Tour & Series 2026",
     "format": "ODI",
     "status": "live",
-    "featured": false,
+    "featured": true,
     "teamHome": {
       "name": "New South Wales",
       "short": "NEW",
       "flag": "🇦🇺",
-      "score": "105/2 *",
+      "score": "195/7 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -183,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New South Wales 105/2 * v Queensland 278/10 "
+        "desc": "Match update: New South Wales 195/7 * v Queensland 278/10 "
       }
     ],
     "playingXI": {
@@ -216,7 +112,7 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_3",
+    "id": "live_2",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
     "status": "live",
@@ -236,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Tasmania",
       "short": "TAS",
       "flag": "🇦🇺",
-      "score": "76/2 *",
+      "score": "295/6 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -287,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Western Australia v Tasmania 76/2 *"
+        "desc": "Match update: Western Australia v Tasmania 295/6 *"
       }
     ],
     "playingXI": {
@@ -320,7 +216,7 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_4",
+    "id": "live_3",
     "tournament": "International Tour & Series 2026",
     "format": "T20I",
     "status": "live",
@@ -329,7 +225,7 @@ const MATCHES_DATA = [
       "name": "Pakistan Women",
       "short": "PAK",
       "flag": "🇵🇰",
-      "score": "In Progress",
+      "score": "136/9 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -340,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Sri Lanka Women",
       "short": "SRI",
       "flag": "🇱🇰",
-      "score": "43/1 *",
+      "score": "140/6",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -348,7 +244,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Pakistan Women",
-    "currentBatting": "Sri Lanka Women",
+    "currentBatting": "Pakistan Women",
     "situation": "Live in progress: Pakistan Women vs Sri Lanka Women",
     "crr": "4.25",
     "rrr": "5.10",
@@ -391,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan Women v Sri Lanka Women 43/1 *"
+        "desc": "Match update: Pakistan Women 136/9 * v Sri Lanka Women 140/6 "
       }
     ],
     "playingXI": {
@@ -420,6 +316,110 @@ const MATCHES_DATA = [
         "Sri Lanka Women Squad Player 9",
         "Sri Lanka Women Squad Player 10",
         "Sri Lanka Women Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Afghanistan A",
+      "short": "AFG",
+      "flag": "🇦🇫",
+      "score": "72/3 *",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Hong Kong",
+      "short": "HON",
+      "flag": "🏏",
+      "score": "66/10",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Afghanistan A",
+    "currentBatting": "Afghanistan A",
+    "situation": "Live in progress: Afghanistan A vs Hong Kong",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Afghanistan A vs Hong Kong underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Afghanistan A 72/3 * v Hong Kong 66/10 "
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Afghanistan A Squad Player 1",
+        "Afghanistan A Squad Player 2",
+        "Afghanistan A Squad Player 3",
+        "Afghanistan A Squad Player 4",
+        "Afghanistan A Squad Player 5",
+        "Afghanistan A Squad Player 6",
+        "Afghanistan A Squad Player 7",
+        "Afghanistan A Squad Player 8",
+        "Afghanistan A Squad Player 9",
+        "Afghanistan A Squad Player 10",
+        "Afghanistan A Squad Player 11"
+      ],
+      "away": [
+        "Hong Kong Squad Player 1",
+        "Hong Kong Squad Player 2",
+        "Hong Kong Squad Player 3",
+        "Hong Kong Squad Player 4",
+        "Hong Kong Squad Player 5",
+        "Hong Kong Squad Player 6",
+        "Hong Kong Squad Player 7",
+        "Hong Kong Squad Player 8",
+        "Hong Kong Squad Player 9",
+        "Hong Kong Squad Player 10",
+        "Hong Kong Squad Player 11"
       ]
     }
   },
