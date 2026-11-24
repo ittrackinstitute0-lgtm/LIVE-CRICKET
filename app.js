@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Queensland",
       "short": "QUE",
       "flag": "🇦🇺",
-      "score": "278/10 &  71/1 *",
+      "score": "106/2 &  278/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New South Wales 303/10  v Queensland 278/10 &  71/1 *"
+        "desc": "Match update: New South Wales 303/10  v Queensland 106/2 &  278/10 *"
       }
     ],
     "playingXI": {
@@ -121,7 +121,7 @@ const MATCHES_DATA = [
       "name": "Western Australia",
       "short": "WES",
       "flag": "🇦🇺",
-      "score": "In Progress",
+      "score": "197/5 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Tasmania",
       "short": "TAS",
       "flag": "🇦🇺",
-      "score": "324/7 *",
+      "score": "342/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -140,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Western Australia",
-    "currentBatting": "Tasmania",
+    "currentBatting": "Western Australia",
     "situation": "Live in progress: Western Australia vs Tasmania",
     "crr": "4.25",
     "rrr": "5.10",
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Western Australia v Tasmania 324/7 *"
+        "desc": "Match update: Western Australia 197/5 * v Tasmania 342/10 "
       }
     ],
     "playingXI": {
@@ -225,7 +225,7 @@ const MATCHES_DATA = [
       "name": "South Africa",
       "short": "SOU",
       "flag": "🇿🇦",
-      "score": "88/1 *",
+      "score": "494/7 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa 88/1 * v Bangladesh 91/10 "
+        "desc": "Match update: South Africa 494/7 * v Bangladesh 91/10 "
       }
     ],
     "playingXI": {
@@ -329,7 +329,7 @@ const MATCHES_DATA = [
       "name": "South Australia",
       "short": "SOU",
       "flag": "🇦🇺",
-      "score": "104/1 *",
+      "score": "272/8 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Australia 104/1 * v Victoria"
+        "desc": "Match update: South Australia 272/8 * v Victoria"
       }
     ],
     "playingXI": {
