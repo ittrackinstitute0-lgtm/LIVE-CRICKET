@@ -10,14 +10,14 @@ const MATCHES_DATA = [
   {
     "id": "live_1",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
+    "format": "Test",
     "status": "live",
     "featured": true,
     "teamHome": {
       "name": "New South Wales",
       "short": "NEW",
       "flag": "🇦🇺",
-      "score": "195/7 *",
+      "score": "303/10",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Queensland",
       "short": "QUE",
       "flag": "🇦🇺",
-      "score": "278/10",
+      "score": "278/10 &  71/1 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -36,7 +36,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "New South Wales",
-    "currentBatting": "New South Wales",
+    "currentBatting": "Queensland",
     "situation": "Live in progress: New South Wales vs Queensland",
     "crr": "4.25",
     "rrr": "5.10",
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New South Wales 195/7 * v Queensland 278/10 "
+        "desc": "Match update: New South Wales 303/10  v Queensland 278/10 &  71/1 *"
       }
     ],
     "playingXI": {
@@ -132,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Tasmania",
       "short": "TAS",
       "flag": "🇦🇺",
-      "score": "295/6 *",
+      "score": "324/7 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -183,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Western Australia v Tasmania 295/6 *"
+        "desc": "Match update: Western Australia v Tasmania 324/7 *"
       }
     ],
     "playingXI": {
@@ -218,14 +218,14 @@ const MATCHES_DATA = [
   {
     "id": "live_3",
     "tournament": "International Tour & Series 2026",
-    "format": "T20I",
+    "format": "ODI",
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Pakistan Women",
-      "short": "PAK",
-      "flag": "🇵🇰",
-      "score": "136/9 *",
+      "name": "South Africa",
+      "short": "SOU",
+      "flag": "🇿🇦",
+      "score": "88/1 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -233,23 +233,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Sri Lanka Women",
-      "short": "SRI",
-      "flag": "🇱🇰",
-      "score": "140/6",
+      "name": "Bangladesh",
+      "short": "BAN",
+      "flag": "🇧🇩",
+      "score": "91/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Pakistan Women",
-    "currentBatting": "Pakistan Women",
-    "situation": "Live in progress: Pakistan Women vs Sri Lanka Women",
+    "battingFirst": "South Africa",
+    "currentBatting": "South Africa",
+    "situation": "Live in progress: South Africa vs Bangladesh",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Pakistan Women vs Sri Lanka Women underway",
+    "toss": "South Africa vs Bangladesh underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -287,35 +287,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Pakistan Women 136/9 * v Sri Lanka Women 140/6 "
+        "desc": "Match update: South Africa 88/1 * v Bangladesh 91/10 "
       }
     ],
     "playingXI": {
       "home": [
-        "Pakistan Women Squad Player 1",
-        "Pakistan Women Squad Player 2",
-        "Pakistan Women Squad Player 3",
-        "Pakistan Women Squad Player 4",
-        "Pakistan Women Squad Player 5",
-        "Pakistan Women Squad Player 6",
-        "Pakistan Women Squad Player 7",
-        "Pakistan Women Squad Player 8",
-        "Pakistan Women Squad Player 9",
-        "Pakistan Women Squad Player 10",
-        "Pakistan Women Squad Player 11"
+        "South Africa Squad Player 1",
+        "South Africa Squad Player 2",
+        "South Africa Squad Player 3",
+        "South Africa Squad Player 4",
+        "South Africa Squad Player 5",
+        "South Africa Squad Player 6",
+        "South Africa Squad Player 7",
+        "South Africa Squad Player 8",
+        "South Africa Squad Player 9",
+        "South Africa Squad Player 10",
+        "South Africa Squad Player 11"
       ],
       "away": [
-        "Sri Lanka Women Squad Player 1",
-        "Sri Lanka Women Squad Player 2",
-        "Sri Lanka Women Squad Player 3",
-        "Sri Lanka Women Squad Player 4",
-        "Sri Lanka Women Squad Player 5",
-        "Sri Lanka Women Squad Player 6",
-        "Sri Lanka Women Squad Player 7",
-        "Sri Lanka Women Squad Player 8",
-        "Sri Lanka Women Squad Player 9",
-        "Sri Lanka Women Squad Player 10",
-        "Sri Lanka Women Squad Player 11"
+        "Bangladesh Squad Player 1",
+        "Bangladesh Squad Player 2",
+        "Bangladesh Squad Player 3",
+        "Bangladesh Squad Player 4",
+        "Bangladesh Squad Player 5",
+        "Bangladesh Squad Player 6",
+        "Bangladesh Squad Player 7",
+        "Bangladesh Squad Player 8",
+        "Bangladesh Squad Player 9",
+        "Bangladesh Squad Player 10",
+        "Bangladesh Squad Player 11"
       ]
     }
   },
@@ -326,10 +326,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Afghanistan A",
-      "short": "AFG",
-      "flag": "🇦🇫",
-      "score": "72/3 *",
+      "name": "South Australia",
+      "short": "SOU",
+      "flag": "🇦🇺",
+      "score": "104/1 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -337,23 +337,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Hong Kong",
-      "short": "HON",
-      "flag": "🏏",
-      "score": "66/10",
+      "name": "Victoria",
+      "short": "VIC",
+      "flag": "🇦🇺",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Afghanistan A",
-    "currentBatting": "Afghanistan A",
-    "situation": "Live in progress: Afghanistan A vs Hong Kong",
+    "battingFirst": "South Australia",
+    "currentBatting": "South Australia",
+    "situation": "Live in progress: South Australia vs Victoria",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Afghanistan A vs Hong Kong underway",
+    "toss": "South Australia vs Victoria underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -391,35 +391,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Afghanistan A 72/3 * v Hong Kong 66/10 "
+        "desc": "Match update: South Australia 104/1 * v Victoria"
       }
     ],
     "playingXI": {
       "home": [
-        "Afghanistan A Squad Player 1",
-        "Afghanistan A Squad Player 2",
-        "Afghanistan A Squad Player 3",
-        "Afghanistan A Squad Player 4",
-        "Afghanistan A Squad Player 5",
-        "Afghanistan A Squad Player 6",
-        "Afghanistan A Squad Player 7",
-        "Afghanistan A Squad Player 8",
-        "Afghanistan A Squad Player 9",
-        "Afghanistan A Squad Player 10",
-        "Afghanistan A Squad Player 11"
+        "South Australia Squad Player 1",
+        "South Australia Squad Player 2",
+        "South Australia Squad Player 3",
+        "South Australia Squad Player 4",
+        "South Australia Squad Player 5",
+        "South Australia Squad Player 6",
+        "South Australia Squad Player 7",
+        "South Australia Squad Player 8",
+        "South Australia Squad Player 9",
+        "South Australia Squad Player 10",
+        "South Australia Squad Player 11"
       ],
       "away": [
-        "Hong Kong Squad Player 1",
-        "Hong Kong Squad Player 2",
-        "Hong Kong Squad Player 3",
-        "Hong Kong Squad Player 4",
-        "Hong Kong Squad Player 5",
-        "Hong Kong Squad Player 6",
-        "Hong Kong Squad Player 7",
-        "Hong Kong Squad Player 8",
-        "Hong Kong Squad Player 9",
-        "Hong Kong Squad Player 10",
-        "Hong Kong Squad Player 11"
+        "Victoria Squad Player 1",
+        "Victoria Squad Player 2",
+        "Victoria Squad Player 3",
+        "Victoria Squad Player 4",
+        "Victoria Squad Player 5",
+        "Victoria Squad Player 6",
+        "Victoria Squad Player 7",
+        "Victoria Squad Player 8",
+        "Victoria Squad Player 9",
+        "Victoria Squad Player 10",
+        "Victoria Squad Player 11"
       ]
     }
   },
