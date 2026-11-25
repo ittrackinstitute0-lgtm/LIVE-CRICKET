@@ -28,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Queensland",
       "short": "QUE",
       "flag": "🇦🇺",
-      "score": "106/2 &  278/10 *",
+      "score": "223/5 &  278/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New South Wales 303/10  v Queensland 106/2 &  278/10 *"
+        "desc": "Match update: New South Wales 303/10  v Queensland 223/5 &  278/10 *"
       }
     ],
     "playingXI": {
@@ -329,7 +329,7 @@ const MATCHES_DATA = [
       "name": "South Australia",
       "short": "SOU",
       "flag": "🇦🇺",
-      "score": "272/8 *",
+      "score": "287/10",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -340,7 +340,7 @@ const MATCHES_DATA = [
       "name": "Victoria",
       "short": "VIC",
       "flag": "🇦🇺",
-      "score": "In Progress",
+      "score": "55/1 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -348,7 +348,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "South Australia",
-    "currentBatting": "South Australia",
+    "currentBatting": "Victoria",
     "situation": "Live in progress: South Australia vs Victoria",
     "crr": "4.25",
     "rrr": "5.10",
@@ -391,7 +391,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Australia 272/8 * v Victoria"
+        "desc": "Match update: South Australia 287/10  v Victoria 55/1 *"
       }
     ],
     "playingXI": {
