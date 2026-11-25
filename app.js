@@ -14,114 +14,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": true,
     "teamHome": {
-      "name": "New South Wales",
-      "short": "NEW",
-      "flag": "🇦🇺",
-      "score": "303/10",
-      "overs": "Live",
-      "runs": 150,
-      "wickets": 4,
-      "currentOver": 32,
-      "currentBall": 4
-    },
-    "teamAway": {
-      "name": "Queensland",
-      "short": "QUE",
-      "flag": "🇦🇺",
-      "score": "223/5 &  278/10 *",
-      "overs": "Live",
-      "runs": 140,
-      "wickets": 3,
-      "currentOver": 28,
-      "currentBall": 2
-    },
-    "battingFirst": "New South Wales",
-    "currentBatting": "Queensland",
-    "situation": "Live in progress: New South Wales vs Queensland",
-    "crr": "4.25",
-    "rrr": "5.10",
-    "venue": "Official International Stadium",
-    "toss": "New South Wales vs Queensland underway",
-    "pitch": "International standard pitch with competitive bounce",
-    "weather": "25°C Good conditions",
-    "batter1": {
-      "name": "Key Batter",
-      "runs": 45,
-      "balls": 38,
-      "fours": 5,
-      "sixes": 1,
-      "sr": "118.4"
-    },
-    "batter2": {
-      "name": "Support Batter",
-      "runs": 22,
-      "balls": 19,
-      "fours": 2,
-      "sixes": 0,
-      "sr": "115.7"
-    },
-    "bowler": {
-      "name": "Lead Bowler",
-      "overs": "6.4",
-      "maidens": 1,
-      "runs": 28,
-      "wickets": 2,
-      "econ": "4.20"
-    },
-    "recentBalls": [
-      "1",
-      "4",
-      "0",
-      "1",
-      "W",
-      "2"
-    ],
-    "commentary": [
-      {
-        "over": "Live",
-        "desc": "Match update: New South Wales 303/10  v Queensland 223/5 &  278/10 *"
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "New South Wales Squad Player 1",
-        "New South Wales Squad Player 2",
-        "New South Wales Squad Player 3",
-        "New South Wales Squad Player 4",
-        "New South Wales Squad Player 5",
-        "New South Wales Squad Player 6",
-        "New South Wales Squad Player 7",
-        "New South Wales Squad Player 8",
-        "New South Wales Squad Player 9",
-        "New South Wales Squad Player 10",
-        "New South Wales Squad Player 11"
-      ],
-      "away": [
-        "Queensland Squad Player 1",
-        "Queensland Squad Player 2",
-        "Queensland Squad Player 3",
-        "Queensland Squad Player 4",
-        "Queensland Squad Player 5",
-        "Queensland Squad Player 6",
-        "Queensland Squad Player 7",
-        "Queensland Squad Player 8",
-        "Queensland Squad Player 9",
-        "Queensland Squad Player 10",
-        "Queensland Squad Player 11"
-      ]
-    }
-  },
-  {
-    "id": "live_2",
-    "tournament": "International Tour & Series 2026",
-    "format": "ODI",
-    "status": "live",
-    "featured": false,
-    "teamHome": {
       "name": "Western Australia",
       "short": "WES",
       "flag": "🇦🇺",
-      "score": "197/5 *",
+      "score": "439/10",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -132,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Tasmania",
       "short": "TAS",
       "flag": "🇦🇺",
-      "score": "342/10",
+      "score": "342/10 &  42/2 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -140,7 +36,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Western Australia",
-    "currentBatting": "Western Australia",
+    "currentBatting": "Tasmania",
     "situation": "Live in progress: Western Australia vs Tasmania",
     "crr": "4.25",
     "rrr": "5.10",
@@ -183,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Western Australia 197/5 * v Tasmania 342/10 "
+        "desc": "Match update: Western Australia 439/10  v Tasmania 342/10 &  42/2 *"
       }
     ],
     "playingXI": {
@@ -216,16 +112,16 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_3",
+    "id": "live_2",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
+    "format": "Test",
     "status": "live",
     "featured": false,
     "teamHome": {
       "name": "South Africa",
       "short": "SOU",
       "flag": "🇿🇦",
-      "score": "494/7 *",
+      "score": "494/7",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -236,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Bangladesh",
       "short": "BAN",
       "flag": "🇧🇩",
-      "score": "91/10",
+      "score": "184/10 &  91/10 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -244,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "South Africa",
-    "currentBatting": "South Africa",
+    "currentBatting": "Bangladesh",
     "situation": "Live in progress: South Africa vs Bangladesh",
     "crr": "4.25",
     "rrr": "5.10",
@@ -287,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Africa 494/7 * v Bangladesh 91/10 "
+        "desc": "Match update: South Africa 494/7  v Bangladesh 184/10 &  91/10 *"
       }
     ],
     "playingXI": {
@@ -320,7 +216,7 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_4",
+    "id": "live_3",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
     "status": "live",
@@ -340,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Victoria",
       "short": "VIC",
       "flag": "🇦🇺",
-      "score": "55/1 *",
+      "score": "275/3 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Australia 287/10  v Victoria 55/1 *"
+        "desc": "Match update: South Australia 287/10  v Victoria 275/3 *"
       }
     ],
     "playingXI": {
@@ -420,6 +316,110 @@ const MATCHES_DATA = [
         "Victoria Squad Player 9",
         "Victoria Squad Player 10",
         "Victoria Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "T20I",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Ireland Women",
+      "short": "IRE",
+      "flag": "🇮🇪",
+      "score": "96/10",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Sri Lanka Women",
+      "short": "SRI",
+      "flag": "🇱🇰",
+      "score": "99/4 *",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Ireland Women",
+    "currentBatting": "Sri Lanka Women",
+    "situation": "Live in progress: Ireland Women vs Sri Lanka Women",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Ireland Women vs Sri Lanka Women underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Ireland Women 96/10  v Sri Lanka Women 99/4 *"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Ireland Women Squad Player 1",
+        "Ireland Women Squad Player 2",
+        "Ireland Women Squad Player 3",
+        "Ireland Women Squad Player 4",
+        "Ireland Women Squad Player 5",
+        "Ireland Women Squad Player 6",
+        "Ireland Women Squad Player 7",
+        "Ireland Women Squad Player 8",
+        "Ireland Women Squad Player 9",
+        "Ireland Women Squad Player 10",
+        "Ireland Women Squad Player 11"
+      ],
+      "away": [
+        "Sri Lanka Women Squad Player 1",
+        "Sri Lanka Women Squad Player 2",
+        "Sri Lanka Women Squad Player 3",
+        "Sri Lanka Women Squad Player 4",
+        "Sri Lanka Women Squad Player 5",
+        "Sri Lanka Women Squad Player 6",
+        "Sri Lanka Women Squad Player 7",
+        "Sri Lanka Women Squad Player 8",
+        "Sri Lanka Women Squad Player 9",
+        "Sri Lanka Women Squad Player 10",
+        "Sri Lanka Women Squad Player 11"
       ]
     }
   },
