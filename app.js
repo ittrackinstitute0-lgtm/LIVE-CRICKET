@@ -114,110 +114,6 @@ const MATCHES_DATA = [
   {
     "id": "live_2",
     "tournament": "International Tour & Series 2026",
-    "format": "Test",
-    "status": "live",
-    "featured": false,
-    "teamHome": {
-      "name": "South Africa",
-      "short": "SOU",
-      "flag": "🇿🇦",
-      "score": "494/7",
-      "overs": "Live",
-      "runs": 150,
-      "wickets": 4,
-      "currentOver": 32,
-      "currentBall": 4
-    },
-    "teamAway": {
-      "name": "Bangladesh",
-      "short": "BAN",
-      "flag": "🇧🇩",
-      "score": "184/10 &  91/10 *",
-      "overs": "Live",
-      "runs": 140,
-      "wickets": 3,
-      "currentOver": 28,
-      "currentBall": 2
-    },
-    "battingFirst": "South Africa",
-    "currentBatting": "Bangladesh",
-    "situation": "Live in progress: South Africa vs Bangladesh",
-    "crr": "4.25",
-    "rrr": "5.10",
-    "venue": "Official International Stadium",
-    "toss": "South Africa vs Bangladesh underway",
-    "pitch": "International standard pitch with competitive bounce",
-    "weather": "25°C Good conditions",
-    "batter1": {
-      "name": "Key Batter",
-      "runs": 45,
-      "balls": 38,
-      "fours": 5,
-      "sixes": 1,
-      "sr": "118.4"
-    },
-    "batter2": {
-      "name": "Support Batter",
-      "runs": 22,
-      "balls": 19,
-      "fours": 2,
-      "sixes": 0,
-      "sr": "115.7"
-    },
-    "bowler": {
-      "name": "Lead Bowler",
-      "overs": "6.4",
-      "maidens": 1,
-      "runs": 28,
-      "wickets": 2,
-      "econ": "4.20"
-    },
-    "recentBalls": [
-      "1",
-      "4",
-      "0",
-      "1",
-      "W",
-      "2"
-    ],
-    "commentary": [
-      {
-        "over": "Live",
-        "desc": "Match update: South Africa 494/7  v Bangladesh 184/10 &  91/10 *"
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "South Africa Squad Player 1",
-        "South Africa Squad Player 2",
-        "South Africa Squad Player 3",
-        "South Africa Squad Player 4",
-        "South Africa Squad Player 5",
-        "South Africa Squad Player 6",
-        "South Africa Squad Player 7",
-        "South Africa Squad Player 8",
-        "South Africa Squad Player 9",
-        "South Africa Squad Player 10",
-        "South Africa Squad Player 11"
-      ],
-      "away": [
-        "Bangladesh Squad Player 1",
-        "Bangladesh Squad Player 2",
-        "Bangladesh Squad Player 3",
-        "Bangladesh Squad Player 4",
-        "Bangladesh Squad Player 5",
-        "Bangladesh Squad Player 6",
-        "Bangladesh Squad Player 7",
-        "Bangladesh Squad Player 8",
-        "Bangladesh Squad Player 9",
-        "Bangladesh Squad Player 10",
-        "Bangladesh Squad Player 11"
-      ]
-    }
-  },
-  {
-    "id": "live_3",
-    "tournament": "International Tour & Series 2026",
     "format": "ODI",
     "status": "live",
     "featured": false,
@@ -236,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Victoria",
       "short": "VIC",
       "flag": "🇦🇺",
-      "score": "275/3 *",
+      "score": "343/6 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -287,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Australia 287/10  v Victoria 275/3 *"
+        "desc": "Match update: South Australia 287/10  v Victoria 343/6 *"
       }
     ],
     "playingXI": {
@@ -320,16 +216,16 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_4",
+    "id": "live_3",
     "tournament": "International Tour & Series 2026",
-    "format": "T20I",
-    "status": "live",
+    "format": "ODI",
+    "status": "upcoming",
     "featured": false,
     "teamHome": {
-      "name": "Ireland Women",
-      "short": "IRE",
-      "flag": "🇮🇪",
-      "score": "96/10",
+      "name": "Uttarakhand",
+      "short": "UTT",
+      "flag": "🏏",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -337,23 +233,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Sri Lanka Women",
-      "short": "SRI",
-      "flag": "🇱🇰",
-      "score": "99/4 *",
+      "name": "Mumbai",
+      "short": "MUM",
+      "flag": "🏏",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Ireland Women",
-    "currentBatting": "Sri Lanka Women",
-    "situation": "Live in progress: Ireland Women vs Sri Lanka Women",
+    "battingFirst": "Uttarakhand",
+    "currentBatting": "Mumbai",
+    "situation": "Live in progress: Uttarakhand vs Mumbai",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Ireland Women vs Sri Lanka Women underway",
+    "toss": "Uttarakhand vs Mumbai underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -391,35 +287,139 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Ireland Women 96/10  v Sri Lanka Women 99/4 *"
+        "desc": "Match update: Uttarakhand v Mumbai"
       }
     ],
     "playingXI": {
       "home": [
-        "Ireland Women Squad Player 1",
-        "Ireland Women Squad Player 2",
-        "Ireland Women Squad Player 3",
-        "Ireland Women Squad Player 4",
-        "Ireland Women Squad Player 5",
-        "Ireland Women Squad Player 6",
-        "Ireland Women Squad Player 7",
-        "Ireland Women Squad Player 8",
-        "Ireland Women Squad Player 9",
-        "Ireland Women Squad Player 10",
-        "Ireland Women Squad Player 11"
+        "Uttarakhand Squad Player 1",
+        "Uttarakhand Squad Player 2",
+        "Uttarakhand Squad Player 3",
+        "Uttarakhand Squad Player 4",
+        "Uttarakhand Squad Player 5",
+        "Uttarakhand Squad Player 6",
+        "Uttarakhand Squad Player 7",
+        "Uttarakhand Squad Player 8",
+        "Uttarakhand Squad Player 9",
+        "Uttarakhand Squad Player 10",
+        "Uttarakhand Squad Player 11"
       ],
       "away": [
-        "Sri Lanka Women Squad Player 1",
-        "Sri Lanka Women Squad Player 2",
-        "Sri Lanka Women Squad Player 3",
-        "Sri Lanka Women Squad Player 4",
-        "Sri Lanka Women Squad Player 5",
-        "Sri Lanka Women Squad Player 6",
-        "Sri Lanka Women Squad Player 7",
-        "Sri Lanka Women Squad Player 8",
-        "Sri Lanka Women Squad Player 9",
-        "Sri Lanka Women Squad Player 10",
-        "Sri Lanka Women Squad Player 11"
+        "Mumbai Squad Player 1",
+        "Mumbai Squad Player 2",
+        "Mumbai Squad Player 3",
+        "Mumbai Squad Player 4",
+        "Mumbai Squad Player 5",
+        "Mumbai Squad Player 6",
+        "Mumbai Squad Player 7",
+        "Mumbai Squad Player 8",
+        "Mumbai Squad Player 9",
+        "Mumbai Squad Player 10",
+        "Mumbai Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "upcoming",
+    "featured": false,
+    "teamHome": {
+      "name": "Madhya Pradesh",
+      "short": "MAD",
+      "flag": "🏏",
+      "score": "In Progress",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Puducherry",
+      "short": "PUD",
+      "flag": "🏏",
+      "score": "In Progress",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Madhya Pradesh",
+    "currentBatting": "Puducherry",
+    "situation": "Live in progress: Madhya Pradesh vs Puducherry",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Madhya Pradesh vs Puducherry underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Madhya Pradesh v Puducherry"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Madhya Pradesh Squad Player 1",
+        "Madhya Pradesh Squad Player 2",
+        "Madhya Pradesh Squad Player 3",
+        "Madhya Pradesh Squad Player 4",
+        "Madhya Pradesh Squad Player 5",
+        "Madhya Pradesh Squad Player 6",
+        "Madhya Pradesh Squad Player 7",
+        "Madhya Pradesh Squad Player 8",
+        "Madhya Pradesh Squad Player 9",
+        "Madhya Pradesh Squad Player 10",
+        "Madhya Pradesh Squad Player 11"
+      ],
+      "away": [
+        "Puducherry Squad Player 1",
+        "Puducherry Squad Player 2",
+        "Puducherry Squad Player 3",
+        "Puducherry Squad Player 4",
+        "Puducherry Squad Player 5",
+        "Puducherry Squad Player 6",
+        "Puducherry Squad Player 7",
+        "Puducherry Squad Player 8",
+        "Puducherry Squad Player 9",
+        "Puducherry Squad Player 10",
+        "Puducherry Squad Player 11"
       ]
     }
   },
