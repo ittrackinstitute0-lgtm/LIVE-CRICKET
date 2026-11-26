@@ -14,114 +14,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": true,
     "teamHome": {
-      "name": "Western Australia",
-      "short": "WES",
-      "flag": "🇦🇺",
-      "score": "439/10",
-      "overs": "Live",
-      "runs": 150,
-      "wickets": 4,
-      "currentOver": 32,
-      "currentBall": 4
-    },
-    "teamAway": {
-      "name": "Tasmania",
-      "short": "TAS",
-      "flag": "🇦🇺",
-      "score": "342/10 &  42/2 *",
-      "overs": "Live",
-      "runs": 140,
-      "wickets": 3,
-      "currentOver": 28,
-      "currentBall": 2
-    },
-    "battingFirst": "Western Australia",
-    "currentBatting": "Tasmania",
-    "situation": "Live in progress: Western Australia vs Tasmania",
-    "crr": "4.25",
-    "rrr": "5.10",
-    "venue": "Official International Stadium",
-    "toss": "Western Australia vs Tasmania underway",
-    "pitch": "International standard pitch with competitive bounce",
-    "weather": "25°C Good conditions",
-    "batter1": {
-      "name": "Key Batter",
-      "runs": 45,
-      "balls": 38,
-      "fours": 5,
-      "sixes": 1,
-      "sr": "118.4"
-    },
-    "batter2": {
-      "name": "Support Batter",
-      "runs": 22,
-      "balls": 19,
-      "fours": 2,
-      "sixes": 0,
-      "sr": "115.7"
-    },
-    "bowler": {
-      "name": "Lead Bowler",
-      "overs": "6.4",
-      "maidens": 1,
-      "runs": 28,
-      "wickets": 2,
-      "econ": "4.20"
-    },
-    "recentBalls": [
-      "1",
-      "4",
-      "0",
-      "1",
-      "W",
-      "2"
-    ],
-    "commentary": [
-      {
-        "over": "Live",
-        "desc": "Match update: Western Australia 439/10  v Tasmania 342/10 &  42/2 *"
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "Western Australia Squad Player 1",
-        "Western Australia Squad Player 2",
-        "Western Australia Squad Player 3",
-        "Western Australia Squad Player 4",
-        "Western Australia Squad Player 5",
-        "Western Australia Squad Player 6",
-        "Western Australia Squad Player 7",
-        "Western Australia Squad Player 8",
-        "Western Australia Squad Player 9",
-        "Western Australia Squad Player 10",
-        "Western Australia Squad Player 11"
-      ],
-      "away": [
-        "Tasmania Squad Player 1",
-        "Tasmania Squad Player 2",
-        "Tasmania Squad Player 3",
-        "Tasmania Squad Player 4",
-        "Tasmania Squad Player 5",
-        "Tasmania Squad Player 6",
-        "Tasmania Squad Player 7",
-        "Tasmania Squad Player 8",
-        "Tasmania Squad Player 9",
-        "Tasmania Squad Player 10",
-        "Tasmania Squad Player 11"
-      ]
-    }
-  },
-  {
-    "id": "live_2",
-    "tournament": "International Tour & Series 2026",
-    "format": "ODI",
-    "status": "live",
-    "featured": false,
-    "teamHome": {
       "name": "South Australia",
       "short": "SOU",
       "flag": "🇦🇺",
-      "score": "287/10",
+      "score": "287/10 &  136/2 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -132,7 +28,7 @@ const MATCHES_DATA = [
       "name": "Victoria",
       "short": "VIC",
       "flag": "🇦🇺",
-      "score": "343/6 *",
+      "score": "417/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -140,7 +36,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "South Australia",
-    "currentBatting": "Victoria",
+    "currentBatting": "South Australia",
     "situation": "Live in progress: South Australia vs Victoria",
     "crr": "4.25",
     "rrr": "5.10",
@@ -183,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Australia 287/10  v Victoria 343/6 *"
+        "desc": "Match update: South Australia 287/10 &  136/2 * v Victoria 417/10 "
       }
     ],
     "playingXI": {
@@ -216,16 +112,16 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_3",
+    "id": "live_2",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "upcoming",
+    "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Uttarakhand",
       "short": "UTT",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "123/10 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -236,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Mumbai",
       "short": "MUM",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "209/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -244,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Uttarakhand",
-    "currentBatting": "Mumbai",
+    "currentBatting": "Uttarakhand",
     "situation": "Live in progress: Uttarakhand vs Mumbai",
     "crr": "4.25",
     "rrr": "5.10",
@@ -287,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Uttarakhand v Mumbai"
+        "desc": "Match update: Uttarakhand 123/10 * v Mumbai 209/10 "
       }
     ],
     "playingXI": {
@@ -320,16 +216,16 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_4",
+    "id": "live_3",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "upcoming",
+    "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Madhya Pradesh",
       "short": "MAD",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "157/7",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -340,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Puducherry",
       "short": "PUD",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "158/8 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Madhya Pradesh v Puducherry"
+        "desc": "Match update: Madhya Pradesh 157/7  v Puducherry 158/8 *"
       }
     ],
     "playingXI": {
@@ -420,6 +316,110 @@ const MATCHES_DATA = [
         "Puducherry Squad Player 9",
         "Puducherry Squad Player 10",
         "Puducherry Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Sudur Paschim Province Under-19s",
+      "short": "SUD",
+      "flag": "🏏",
+      "score": "136/10 *",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Lumbini Province Under-19s",
+      "short": "LUM",
+      "flag": "🏏",
+      "score": "177/10",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Sudur Paschim Province Under-19s",
+    "currentBatting": "Sudur Paschim Province Under-19s",
+    "situation": "Live in progress: Sudur Paschim Province Under-19s vs Lumbini Province Under-19s",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Sudur Paschim Province Under-19s vs Lumbini Province Under-19s underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Sudur Paschim Province Under-19s 136/10 * v Lumbini Province Under-19s 177/10 "
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Sudur Paschim Province Under-19s Squad Player 1",
+        "Sudur Paschim Province Under-19s Squad Player 2",
+        "Sudur Paschim Province Under-19s Squad Player 3",
+        "Sudur Paschim Province Under-19s Squad Player 4",
+        "Sudur Paschim Province Under-19s Squad Player 5",
+        "Sudur Paschim Province Under-19s Squad Player 6",
+        "Sudur Paschim Province Under-19s Squad Player 7",
+        "Sudur Paschim Province Under-19s Squad Player 8",
+        "Sudur Paschim Province Under-19s Squad Player 9",
+        "Sudur Paschim Province Under-19s Squad Player 10",
+        "Sudur Paschim Province Under-19s Squad Player 11"
+      ],
+      "away": [
+        "Lumbini Province Under-19s Squad Player 1",
+        "Lumbini Province Under-19s Squad Player 2",
+        "Lumbini Province Under-19s Squad Player 3",
+        "Lumbini Province Under-19s Squad Player 4",
+        "Lumbini Province Under-19s Squad Player 5",
+        "Lumbini Province Under-19s Squad Player 6",
+        "Lumbini Province Under-19s Squad Player 7",
+        "Lumbini Province Under-19s Squad Player 8",
+        "Lumbini Province Under-19s Squad Player 9",
+        "Lumbini Province Under-19s Squad Player 10",
+        "Lumbini Province Under-19s Squad Player 11"
       ]
     }
   },
