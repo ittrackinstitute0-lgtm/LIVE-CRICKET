@@ -10,118 +10,14 @@ const MATCHES_DATA = [
   {
     "id": "live_1",
     "tournament": "International Tour & Series 2026",
-    "format": "Test",
-    "status": "live",
-    "featured": true,
-    "teamHome": {
-      "name": "South Australia",
-      "short": "SOU",
-      "flag": "🇦🇺",
-      "score": "287/10 &  217/3 *",
-      "overs": "Live",
-      "runs": 150,
-      "wickets": 4,
-      "currentOver": 32,
-      "currentBall": 4
-    },
-    "teamAway": {
-      "name": "Victoria",
-      "short": "VIC",
-      "flag": "🇦🇺",
-      "score": "417/10",
-      "overs": "Live",
-      "runs": 140,
-      "wickets": 3,
-      "currentOver": 28,
-      "currentBall": 2
-    },
-    "battingFirst": "South Australia",
-    "currentBatting": "South Australia",
-    "situation": "Live in progress: South Australia vs Victoria",
-    "crr": "4.25",
-    "rrr": "5.10",
-    "venue": "Official International Stadium",
-    "toss": "South Australia vs Victoria underway",
-    "pitch": "International standard pitch with competitive bounce",
-    "weather": "25°C Good conditions",
-    "batter1": {
-      "name": "Key Batter",
-      "runs": 45,
-      "balls": 38,
-      "fours": 5,
-      "sixes": 1,
-      "sr": "118.4"
-    },
-    "batter2": {
-      "name": "Support Batter",
-      "runs": 22,
-      "balls": 19,
-      "fours": 2,
-      "sixes": 0,
-      "sr": "115.7"
-    },
-    "bowler": {
-      "name": "Lead Bowler",
-      "overs": "6.4",
-      "maidens": 1,
-      "runs": 28,
-      "wickets": 2,
-      "econ": "4.20"
-    },
-    "recentBalls": [
-      "1",
-      "4",
-      "0",
-      "1",
-      "W",
-      "2"
-    ],
-    "commentary": [
-      {
-        "over": "Live",
-        "desc": "Match update: South Australia 287/10 &  217/3 * v Victoria 417/10 "
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "South Australia Squad Player 1",
-        "South Australia Squad Player 2",
-        "South Australia Squad Player 3",
-        "South Australia Squad Player 4",
-        "South Australia Squad Player 5",
-        "South Australia Squad Player 6",
-        "South Australia Squad Player 7",
-        "South Australia Squad Player 8",
-        "South Australia Squad Player 9",
-        "South Australia Squad Player 10",
-        "South Australia Squad Player 11"
-      ],
-      "away": [
-        "Victoria Squad Player 1",
-        "Victoria Squad Player 2",
-        "Victoria Squad Player 3",
-        "Victoria Squad Player 4",
-        "Victoria Squad Player 5",
-        "Victoria Squad Player 6",
-        "Victoria Squad Player 7",
-        "Victoria Squad Player 8",
-        "Victoria Squad Player 9",
-        "Victoria Squad Player 10",
-        "Victoria Squad Player 11"
-      ]
-    }
-  },
-  {
-    "id": "live_2",
-    "tournament": "International Tour & Series 2026",
     "format": "ODI",
     "status": "live",
-    "featured": false,
+    "featured": true,
     "teamHome": {
       "name": "New Zealand",
       "short": "NEW",
       "flag": "🇳🇿",
-      "score": "102/1 *",
+      "score": "246/5 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -183,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 102/1 * v India"
+        "desc": "Match update: New Zealand 246/5 * v India"
       }
     ],
     "playingXI": {
@@ -216,16 +112,16 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_3",
+    "id": "live_2",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "upcoming",
+    "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Karnali Province Under-19s",
       "short": "KAR",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "78/10 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -236,7 +132,7 @@ const MATCHES_DATA = [
       "name": "Lumbini Province Under-19s",
       "short": "LUM",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "223/10",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -244,7 +140,7 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Karnali Province Under-19s",
-    "currentBatting": "Lumbini Province Under-19s",
+    "currentBatting": "Karnali Province Under-19s",
     "situation": "Live in progress: Karnali Province Under-19s vs Lumbini Province Under-19s",
     "crr": "4.25",
     "rrr": "5.10",
@@ -287,7 +183,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Karnali Province Under-19s v Lumbini Province Under-19s"
+        "desc": "Match update: Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10 "
       }
     ],
     "playingXI": {
@@ -320,16 +216,16 @@ const MATCHES_DATA = [
     }
   },
   {
-    "id": "live_4",
+    "id": "live_3",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "upcoming",
+    "status": "live",
     "featured": false,
     "teamHome": {
       "name": "Gandaki Province Under-19s",
       "short": "GAN",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "120/10",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -340,7 +236,7 @@ const MATCHES_DATA = [
       "name": "Madhesh Province Under-19s",
       "short": "MAD",
       "flag": "🏏",
-      "score": "In Progress",
+      "score": "123/3 *",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -391,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Gandaki Province Under-19s v Madhesh Province Under-19s"
+        "desc": "Match update: Gandaki Province Under-19s 120/10  v Madhesh Province Under-19s 123/3 *"
       }
     ],
     "playingXI": {
@@ -420,6 +316,110 @@ const MATCHES_DATA = [
         "Madhesh Province Under-19s Squad Player 9",
         "Madhesh Province Under-19s Squad Player 10",
         "Madhesh Province Under-19s Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "live",
+    "featured": false,
+    "teamHome": {
+      "name": "Zimbabwe A",
+      "short": "ZIM",
+      "flag": "🇿🇼",
+      "score": "279/5 *",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Ireland A",
+      "short": "IRE",
+      "flag": "🇮🇪",
+      "score": "278/9",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Zimbabwe A",
+    "currentBatting": "Zimbabwe A",
+    "situation": "Live in progress: Zimbabwe A vs Ireland A",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Zimbabwe A vs Ireland A underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Zimbabwe A 279/5 * v Ireland A 278/9 "
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Zimbabwe A Squad Player 1",
+        "Zimbabwe A Squad Player 2",
+        "Zimbabwe A Squad Player 3",
+        "Zimbabwe A Squad Player 4",
+        "Zimbabwe A Squad Player 5",
+        "Zimbabwe A Squad Player 6",
+        "Zimbabwe A Squad Player 7",
+        "Zimbabwe A Squad Player 8",
+        "Zimbabwe A Squad Player 9",
+        "Zimbabwe A Squad Player 10",
+        "Zimbabwe A Squad Player 11"
+      ],
+      "away": [
+        "Ireland A Squad Player 1",
+        "Ireland A Squad Player 2",
+        "Ireland A Squad Player 3",
+        "Ireland A Squad Player 4",
+        "Ireland A Squad Player 5",
+        "Ireland A Squad Player 6",
+        "Ireland A Squad Player 7",
+        "Ireland A Squad Player 8",
+        "Ireland A Squad Player 9",
+        "Ireland A Squad Player 10",
+        "Ireland A Squad Player 11"
       ]
     }
   },
