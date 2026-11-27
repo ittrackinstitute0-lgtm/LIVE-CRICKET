@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "South Australia",
       "short": "SOU",
       "flag": "🇦🇺",
-      "score": "287/10 &  136/2 *",
+      "score": "287/10 &  217/3 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: South Australia 287/10 &  136/2 * v Victoria 417/10 "
+        "desc": "Match update: South Australia 287/10 &  217/3 * v Victoria 417/10 "
       }
     ],
     "playingXI": {
@@ -118,10 +118,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Uttarakhand",
-      "short": "UTT",
-      "flag": "🏏",
-      "score": "123/10 *",
+      "name": "New Zealand",
+      "short": "NEW",
+      "flag": "🇳🇿",
+      "score": "102/1 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -129,23 +129,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Mumbai",
-      "short": "MUM",
-      "flag": "🏏",
-      "score": "209/10",
+      "name": "India",
+      "short": "IND",
+      "flag": "🇮🇳",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Uttarakhand",
-    "currentBatting": "Uttarakhand",
-    "situation": "Live in progress: Uttarakhand vs Mumbai",
+    "battingFirst": "New Zealand",
+    "currentBatting": "New Zealand",
+    "situation": "Live in progress: New Zealand vs India",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Uttarakhand vs Mumbai underway",
+    "toss": "New Zealand vs India underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -183,35 +183,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Uttarakhand 123/10 * v Mumbai 209/10 "
+        "desc": "Match update: New Zealand 102/1 * v India"
       }
     ],
     "playingXI": {
       "home": [
-        "Uttarakhand Squad Player 1",
-        "Uttarakhand Squad Player 2",
-        "Uttarakhand Squad Player 3",
-        "Uttarakhand Squad Player 4",
-        "Uttarakhand Squad Player 5",
-        "Uttarakhand Squad Player 6",
-        "Uttarakhand Squad Player 7",
-        "Uttarakhand Squad Player 8",
-        "Uttarakhand Squad Player 9",
-        "Uttarakhand Squad Player 10",
-        "Uttarakhand Squad Player 11"
+        "New Zealand Squad Player 1",
+        "New Zealand Squad Player 2",
+        "New Zealand Squad Player 3",
+        "New Zealand Squad Player 4",
+        "New Zealand Squad Player 5",
+        "New Zealand Squad Player 6",
+        "New Zealand Squad Player 7",
+        "New Zealand Squad Player 8",
+        "New Zealand Squad Player 9",
+        "New Zealand Squad Player 10",
+        "New Zealand Squad Player 11"
       ],
       "away": [
-        "Mumbai Squad Player 1",
-        "Mumbai Squad Player 2",
-        "Mumbai Squad Player 3",
-        "Mumbai Squad Player 4",
-        "Mumbai Squad Player 5",
-        "Mumbai Squad Player 6",
-        "Mumbai Squad Player 7",
-        "Mumbai Squad Player 8",
-        "Mumbai Squad Player 9",
-        "Mumbai Squad Player 10",
-        "Mumbai Squad Player 11"
+        "India Squad Player 1",
+        "India Squad Player 2",
+        "India Squad Player 3",
+        "India Squad Player 4",
+        "India Squad Player 5",
+        "India Squad Player 6",
+        "India Squad Player 7",
+        "India Squad Player 8",
+        "India Squad Player 9",
+        "India Squad Player 10",
+        "India Squad Player 11"
       ]
     }
   },
@@ -219,117 +219,13 @@ const MATCHES_DATA = [
     "id": "live_3",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "live",
+    "status": "upcoming",
     "featured": false,
     "teamHome": {
-      "name": "Madhya Pradesh",
-      "short": "MAD",
+      "name": "Karnali Province Under-19s",
+      "short": "KAR",
       "flag": "🏏",
-      "score": "157/7",
-      "overs": "Live",
-      "runs": 150,
-      "wickets": 4,
-      "currentOver": 32,
-      "currentBall": 4
-    },
-    "teamAway": {
-      "name": "Puducherry",
-      "short": "PUD",
-      "flag": "🏏",
-      "score": "158/8 *",
-      "overs": "Live",
-      "runs": 140,
-      "wickets": 3,
-      "currentOver": 28,
-      "currentBall": 2
-    },
-    "battingFirst": "Madhya Pradesh",
-    "currentBatting": "Puducherry",
-    "situation": "Live in progress: Madhya Pradesh vs Puducherry",
-    "crr": "4.25",
-    "rrr": "5.10",
-    "venue": "Official International Stadium",
-    "toss": "Madhya Pradesh vs Puducherry underway",
-    "pitch": "International standard pitch with competitive bounce",
-    "weather": "25°C Good conditions",
-    "batter1": {
-      "name": "Key Batter",
-      "runs": 45,
-      "balls": 38,
-      "fours": 5,
-      "sixes": 1,
-      "sr": "118.4"
-    },
-    "batter2": {
-      "name": "Support Batter",
-      "runs": 22,
-      "balls": 19,
-      "fours": 2,
-      "sixes": 0,
-      "sr": "115.7"
-    },
-    "bowler": {
-      "name": "Lead Bowler",
-      "overs": "6.4",
-      "maidens": 1,
-      "runs": 28,
-      "wickets": 2,
-      "econ": "4.20"
-    },
-    "recentBalls": [
-      "1",
-      "4",
-      "0",
-      "1",
-      "W",
-      "2"
-    ],
-    "commentary": [
-      {
-        "over": "Live",
-        "desc": "Match update: Madhya Pradesh 157/7  v Puducherry 158/8 *"
-      }
-    ],
-    "playingXI": {
-      "home": [
-        "Madhya Pradesh Squad Player 1",
-        "Madhya Pradesh Squad Player 2",
-        "Madhya Pradesh Squad Player 3",
-        "Madhya Pradesh Squad Player 4",
-        "Madhya Pradesh Squad Player 5",
-        "Madhya Pradesh Squad Player 6",
-        "Madhya Pradesh Squad Player 7",
-        "Madhya Pradesh Squad Player 8",
-        "Madhya Pradesh Squad Player 9",
-        "Madhya Pradesh Squad Player 10",
-        "Madhya Pradesh Squad Player 11"
-      ],
-      "away": [
-        "Puducherry Squad Player 1",
-        "Puducherry Squad Player 2",
-        "Puducherry Squad Player 3",
-        "Puducherry Squad Player 4",
-        "Puducherry Squad Player 5",
-        "Puducherry Squad Player 6",
-        "Puducherry Squad Player 7",
-        "Puducherry Squad Player 8",
-        "Puducherry Squad Player 9",
-        "Puducherry Squad Player 10",
-        "Puducherry Squad Player 11"
-      ]
-    }
-  },
-  {
-    "id": "live_4",
-    "tournament": "International Tour & Series 2026",
-    "format": "ODI",
-    "status": "live",
-    "featured": false,
-    "teamHome": {
-      "name": "Sudur Paschim Province Under-19s",
-      "short": "SUD",
-      "flag": "🏏",
-      "score": "136/10 *",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -340,20 +236,20 @@ const MATCHES_DATA = [
       "name": "Lumbini Province Under-19s",
       "short": "LUM",
       "flag": "🏏",
-      "score": "177/10",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Sudur Paschim Province Under-19s",
-    "currentBatting": "Sudur Paschim Province Under-19s",
-    "situation": "Live in progress: Sudur Paschim Province Under-19s vs Lumbini Province Under-19s",
+    "battingFirst": "Karnali Province Under-19s",
+    "currentBatting": "Lumbini Province Under-19s",
+    "situation": "Live in progress: Karnali Province Under-19s vs Lumbini Province Under-19s",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Sudur Paschim Province Under-19s vs Lumbini Province Under-19s underway",
+    "toss": "Karnali Province Under-19s vs Lumbini Province Under-19s underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -391,22 +287,22 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Sudur Paschim Province Under-19s 136/10 * v Lumbini Province Under-19s 177/10 "
+        "desc": "Match update: Karnali Province Under-19s v Lumbini Province Under-19s"
       }
     ],
     "playingXI": {
       "home": [
-        "Sudur Paschim Province Under-19s Squad Player 1",
-        "Sudur Paschim Province Under-19s Squad Player 2",
-        "Sudur Paschim Province Under-19s Squad Player 3",
-        "Sudur Paschim Province Under-19s Squad Player 4",
-        "Sudur Paschim Province Under-19s Squad Player 5",
-        "Sudur Paschim Province Under-19s Squad Player 6",
-        "Sudur Paschim Province Under-19s Squad Player 7",
-        "Sudur Paschim Province Under-19s Squad Player 8",
-        "Sudur Paschim Province Under-19s Squad Player 9",
-        "Sudur Paschim Province Under-19s Squad Player 10",
-        "Sudur Paschim Province Under-19s Squad Player 11"
+        "Karnali Province Under-19s Squad Player 1",
+        "Karnali Province Under-19s Squad Player 2",
+        "Karnali Province Under-19s Squad Player 3",
+        "Karnali Province Under-19s Squad Player 4",
+        "Karnali Province Under-19s Squad Player 5",
+        "Karnali Province Under-19s Squad Player 6",
+        "Karnali Province Under-19s Squad Player 7",
+        "Karnali Province Under-19s Squad Player 8",
+        "Karnali Province Under-19s Squad Player 9",
+        "Karnali Province Under-19s Squad Player 10",
+        "Karnali Province Under-19s Squad Player 11"
       ],
       "away": [
         "Lumbini Province Under-19s Squad Player 1",
@@ -420,6 +316,110 @@ const MATCHES_DATA = [
         "Lumbini Province Under-19s Squad Player 9",
         "Lumbini Province Under-19s Squad Player 10",
         "Lumbini Province Under-19s Squad Player 11"
+      ]
+    }
+  },
+  {
+    "id": "live_4",
+    "tournament": "International Tour & Series 2026",
+    "format": "ODI",
+    "status": "upcoming",
+    "featured": false,
+    "teamHome": {
+      "name": "Gandaki Province Under-19s",
+      "short": "GAN",
+      "flag": "🏏",
+      "score": "In Progress",
+      "overs": "Live",
+      "runs": 150,
+      "wickets": 4,
+      "currentOver": 32,
+      "currentBall": 4
+    },
+    "teamAway": {
+      "name": "Madhesh Province Under-19s",
+      "short": "MAD",
+      "flag": "🏏",
+      "score": "In Progress",
+      "overs": "Live",
+      "runs": 140,
+      "wickets": 3,
+      "currentOver": 28,
+      "currentBall": 2
+    },
+    "battingFirst": "Gandaki Province Under-19s",
+    "currentBatting": "Madhesh Province Under-19s",
+    "situation": "Live in progress: Gandaki Province Under-19s vs Madhesh Province Under-19s",
+    "crr": "4.25",
+    "rrr": "5.10",
+    "venue": "Official International Stadium",
+    "toss": "Gandaki Province Under-19s vs Madhesh Province Under-19s underway",
+    "pitch": "International standard pitch with competitive bounce",
+    "weather": "25°C Good conditions",
+    "batter1": {
+      "name": "Key Batter",
+      "runs": 45,
+      "balls": 38,
+      "fours": 5,
+      "sixes": 1,
+      "sr": "118.4"
+    },
+    "batter2": {
+      "name": "Support Batter",
+      "runs": 22,
+      "balls": 19,
+      "fours": 2,
+      "sixes": 0,
+      "sr": "115.7"
+    },
+    "bowler": {
+      "name": "Lead Bowler",
+      "overs": "6.4",
+      "maidens": 1,
+      "runs": 28,
+      "wickets": 2,
+      "econ": "4.20"
+    },
+    "recentBalls": [
+      "1",
+      "4",
+      "0",
+      "1",
+      "W",
+      "2"
+    ],
+    "commentary": [
+      {
+        "over": "Live",
+        "desc": "Match update: Gandaki Province Under-19s v Madhesh Province Under-19s"
+      }
+    ],
+    "playingXI": {
+      "home": [
+        "Gandaki Province Under-19s Squad Player 1",
+        "Gandaki Province Under-19s Squad Player 2",
+        "Gandaki Province Under-19s Squad Player 3",
+        "Gandaki Province Under-19s Squad Player 4",
+        "Gandaki Province Under-19s Squad Player 5",
+        "Gandaki Province Under-19s Squad Player 6",
+        "Gandaki Province Under-19s Squad Player 7",
+        "Gandaki Province Under-19s Squad Player 8",
+        "Gandaki Province Under-19s Squad Player 9",
+        "Gandaki Province Under-19s Squad Player 10",
+        "Gandaki Province Under-19s Squad Player 11"
+      ],
+      "away": [
+        "Madhesh Province Under-19s Squad Player 1",
+        "Madhesh Province Under-19s Squad Player 2",
+        "Madhesh Province Under-19s Squad Player 3",
+        "Madhesh Province Under-19s Squad Player 4",
+        "Madhesh Province Under-19s Squad Player 5",
+        "Madhesh Province Under-19s Squad Player 6",
+        "Madhesh Province Under-19s Squad Player 7",
+        "Madhesh Province Under-19s Squad Player 8",
+        "Madhesh Province Under-19s Squad Player 9",
+        "Madhesh Province Under-19s Squad Player 10",
+        "Madhesh Province Under-19s Squad Player 11"
       ]
     }
   },
