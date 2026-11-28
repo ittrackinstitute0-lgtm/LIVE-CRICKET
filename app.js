@@ -17,7 +17,7 @@ const MATCHES_DATA = [
       "name": "New Zealand",
       "short": "NEW",
       "flag": "🇳🇿",
-      "score": "246/5 *",
+      "score": "339/8 *",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -79,7 +79,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: New Zealand 246/5 * v India"
+        "desc": "Match update: New Zealand 339/8 * v India"
       }
     ],
     "playingXI": {
@@ -118,10 +118,10 @@ const MATCHES_DATA = [
     "status": "live",
     "featured": false,
     "teamHome": {
-      "name": "Karnali Province Under-19s",
-      "short": "KAR",
+      "name": "Sudur Paschim Province Under-19s",
+      "short": "SUD",
       "flag": "🏏",
-      "score": "78/10 *",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -129,23 +129,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Lumbini Province Under-19s",
-      "short": "LUM",
+      "name": "Karnali Province Under-19s",
+      "short": "KAR",
       "flag": "🏏",
-      "score": "223/10",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Karnali Province Under-19s",
+    "battingFirst": "Sudur Paschim Province Under-19s",
     "currentBatting": "Karnali Province Under-19s",
-    "situation": "Live in progress: Karnali Province Under-19s vs Lumbini Province Under-19s",
+    "situation": "Live in progress: Sudur Paschim Province Under-19s vs Karnali Province Under-19s",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Karnali Province Under-19s vs Lumbini Province Under-19s underway",
+    "toss": "Sudur Paschim Province Under-19s vs Karnali Province Under-19s underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -183,11 +183,24 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Karnali Province Under-19s 78/10 * v Lumbini Province Under-19s 223/10 "
+        "desc": "Match update: Sudur Paschim Province Under-19s v Karnali Province Under-19s"
       }
     ],
     "playingXI": {
       "home": [
+        "Sudur Paschim Province Under-19s Squad Player 1",
+        "Sudur Paschim Province Under-19s Squad Player 2",
+        "Sudur Paschim Province Under-19s Squad Player 3",
+        "Sudur Paschim Province Under-19s Squad Player 4",
+        "Sudur Paschim Province Under-19s Squad Player 5",
+        "Sudur Paschim Province Under-19s Squad Player 6",
+        "Sudur Paschim Province Under-19s Squad Player 7",
+        "Sudur Paschim Province Under-19s Squad Player 8",
+        "Sudur Paschim Province Under-19s Squad Player 9",
+        "Sudur Paschim Province Under-19s Squad Player 10",
+        "Sudur Paschim Province Under-19s Squad Player 11"
+      ],
+      "away": [
         "Karnali Province Under-19s Squad Player 1",
         "Karnali Province Under-19s Squad Player 2",
         "Karnali Province Under-19s Squad Player 3",
@@ -199,19 +212,6 @@ const MATCHES_DATA = [
         "Karnali Province Under-19s Squad Player 9",
         "Karnali Province Under-19s Squad Player 10",
         "Karnali Province Under-19s Squad Player 11"
-      ],
-      "away": [
-        "Lumbini Province Under-19s Squad Player 1",
-        "Lumbini Province Under-19s Squad Player 2",
-        "Lumbini Province Under-19s Squad Player 3",
-        "Lumbini Province Under-19s Squad Player 4",
-        "Lumbini Province Under-19s Squad Player 5",
-        "Lumbini Province Under-19s Squad Player 6",
-        "Lumbini Province Under-19s Squad Player 7",
-        "Lumbini Province Under-19s Squad Player 8",
-        "Lumbini Province Under-19s Squad Player 9",
-        "Lumbini Province Under-19s Squad Player 10",
-        "Lumbini Province Under-19s Squad Player 11"
       ]
     }
   },
@@ -219,13 +219,13 @@ const MATCHES_DATA = [
     "id": "live_3",
     "tournament": "International Tour & Series 2026",
     "format": "ODI",
-    "status": "live",
+    "status": "upcoming",
     "featured": false,
     "teamHome": {
       "name": "Gandaki Province Under-19s",
       "short": "GAN",
       "flag": "🏏",
-      "score": "120/10",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -233,10 +233,10 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Madhesh Province Under-19s",
-      "short": "MAD",
+      "name": "Koshi Province Under-19s",
+      "short": "KOS",
       "flag": "🏏",
-      "score": "123/3 *",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
@@ -244,12 +244,12 @@ const MATCHES_DATA = [
       "currentBall": 2
     },
     "battingFirst": "Gandaki Province Under-19s",
-    "currentBatting": "Madhesh Province Under-19s",
-    "situation": "Live in progress: Gandaki Province Under-19s vs Madhesh Province Under-19s",
+    "currentBatting": "Koshi Province Under-19s",
+    "situation": "Live in progress: Gandaki Province Under-19s vs Koshi Province Under-19s",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Gandaki Province Under-19s vs Madhesh Province Under-19s underway",
+    "toss": "Gandaki Province Under-19s vs Koshi Province Under-19s underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -287,7 +287,7 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Gandaki Province Under-19s 120/10  v Madhesh Province Under-19s 123/3 *"
+        "desc": "Match update: Gandaki Province Under-19s v Koshi Province Under-19s"
       }
     ],
     "playingXI": {
@@ -305,31 +305,31 @@ const MATCHES_DATA = [
         "Gandaki Province Under-19s Squad Player 11"
       ],
       "away": [
-        "Madhesh Province Under-19s Squad Player 1",
-        "Madhesh Province Under-19s Squad Player 2",
-        "Madhesh Province Under-19s Squad Player 3",
-        "Madhesh Province Under-19s Squad Player 4",
-        "Madhesh Province Under-19s Squad Player 5",
-        "Madhesh Province Under-19s Squad Player 6",
-        "Madhesh Province Under-19s Squad Player 7",
-        "Madhesh Province Under-19s Squad Player 8",
-        "Madhesh Province Under-19s Squad Player 9",
-        "Madhesh Province Under-19s Squad Player 10",
-        "Madhesh Province Under-19s Squad Player 11"
+        "Koshi Province Under-19s Squad Player 1",
+        "Koshi Province Under-19s Squad Player 2",
+        "Koshi Province Under-19s Squad Player 3",
+        "Koshi Province Under-19s Squad Player 4",
+        "Koshi Province Under-19s Squad Player 5",
+        "Koshi Province Under-19s Squad Player 6",
+        "Koshi Province Under-19s Squad Player 7",
+        "Koshi Province Under-19s Squad Player 8",
+        "Koshi Province Under-19s Squad Player 9",
+        "Koshi Province Under-19s Squad Player 10",
+        "Koshi Province Under-19s Squad Player 11"
       ]
     }
   },
   {
     "id": "live_4",
     "tournament": "International Tour & Series 2026",
-    "format": "ODI",
-    "status": "live",
+    "format": "T20I",
+    "status": "upcoming",
     "featured": false,
     "teamHome": {
-      "name": "Zimbabwe A",
-      "short": "ZIM",
-      "flag": "🇿🇼",
-      "score": "279/5 *",
+      "name": "Melbourne Renegades Women",
+      "short": "MEL",
+      "flag": "🏏",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 150,
       "wickets": 4,
@@ -337,23 +337,23 @@ const MATCHES_DATA = [
       "currentBall": 4
     },
     "teamAway": {
-      "name": "Ireland A",
-      "short": "IRE",
-      "flag": "🇮🇪",
-      "score": "278/9",
+      "name": "Melbourne Stars Women",
+      "short": "MEL",
+      "flag": "🇦🇺",
+      "score": "In Progress",
       "overs": "Live",
       "runs": 140,
       "wickets": 3,
       "currentOver": 28,
       "currentBall": 2
     },
-    "battingFirst": "Zimbabwe A",
-    "currentBatting": "Zimbabwe A",
-    "situation": "Live in progress: Zimbabwe A vs Ireland A",
+    "battingFirst": "Melbourne Renegades Women",
+    "currentBatting": "Melbourne Stars Women",
+    "situation": "Live in progress: Melbourne Renegades Women vs Melbourne Stars Women",
     "crr": "4.25",
     "rrr": "5.10",
     "venue": "Official International Stadium",
-    "toss": "Zimbabwe A vs Ireland A underway",
+    "toss": "Melbourne Renegades Women vs Melbourne Stars Women underway",
     "pitch": "International standard pitch with competitive bounce",
     "weather": "25°C Good conditions",
     "batter1": {
@@ -391,35 +391,35 @@ const MATCHES_DATA = [
     "commentary": [
       {
         "over": "Live",
-        "desc": "Match update: Zimbabwe A 279/5 * v Ireland A 278/9 "
+        "desc": "Match update: Melbourne Renegades Women v Melbourne Stars Women"
       }
     ],
     "playingXI": {
       "home": [
-        "Zimbabwe A Squad Player 1",
-        "Zimbabwe A Squad Player 2",
-        "Zimbabwe A Squad Player 3",
-        "Zimbabwe A Squad Player 4",
-        "Zimbabwe A Squad Player 5",
-        "Zimbabwe A Squad Player 6",
-        "Zimbabwe A Squad Player 7",
-        "Zimbabwe A Squad Player 8",
-        "Zimbabwe A Squad Player 9",
-        "Zimbabwe A Squad Player 10",
-        "Zimbabwe A Squad Player 11"
+        "Melbourne Renegades Women Squad Player 1",
+        "Melbourne Renegades Women Squad Player 2",
+        "Melbourne Renegades Women Squad Player 3",
+        "Melbourne Renegades Women Squad Player 4",
+        "Melbourne Renegades Women Squad Player 5",
+        "Melbourne Renegades Women Squad Player 6",
+        "Melbourne Renegades Women Squad Player 7",
+        "Melbourne Renegades Women Squad Player 8",
+        "Melbourne Renegades Women Squad Player 9",
+        "Melbourne Renegades Women Squad Player 10",
+        "Melbourne Renegades Women Squad Player 11"
       ],
       "away": [
-        "Ireland A Squad Player 1",
-        "Ireland A Squad Player 2",
-        "Ireland A Squad Player 3",
-        "Ireland A Squad Player 4",
-        "Ireland A Squad Player 5",
-        "Ireland A Squad Player 6",
-        "Ireland A Squad Player 7",
-        "Ireland A Squad Player 8",
-        "Ireland A Squad Player 9",
-        "Ireland A Squad Player 10",
-        "Ireland A Squad Player 11"
+        "Melbourne Stars Women Squad Player 1",
+        "Melbourne Stars Women Squad Player 2",
+        "Melbourne Stars Women Squad Player 3",
+        "Melbourne Stars Women Squad Player 4",
+        "Melbourne Stars Women Squad Player 5",
+        "Melbourne Stars Women Squad Player 6",
+        "Melbourne Stars Women Squad Player 7",
+        "Melbourne Stars Women Squad Player 8",
+        "Melbourne Stars Women Squad Player 9",
+        "Melbourne Stars Women Squad Player 10",
+        "Melbourne Stars Women Squad Player 11"
       ]
     }
   },
